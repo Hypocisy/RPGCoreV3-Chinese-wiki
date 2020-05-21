@@ -2,7 +2,6 @@ __NOTOC__
 
 ==== EntityModule ====  
 * [[EntityModule: Creatures]] 
-* [[EntityModule: Disguises]]
 * [[EntityModule: Spawners (Static)]] 
 * [[EntityModule: Spawners (Dynamic)]] 
 ==== ItemModule  ====  
