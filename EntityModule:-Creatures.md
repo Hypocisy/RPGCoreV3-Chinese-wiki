@@ -8,18 +8,18 @@ Only monsters that were created by rpgcore will be affected by it, do not utiliz
 | Option | Type | Description | Defaults |
 |-|-|-|-|
 | | | | |
-| leash-range | integer | teleport to spawnpoint after exceeding distance | -1 |
-| experience | integer | player experience granted when slain | 0 |
-| skill-experience | integer | skill experience granted when slain | 0 |
+| leash-range | integer | teleport to spawnpoint after exceeding distance | required |
+| experience | integer | player experience granted when slain | |
+| skill-experience | integer | skill experience granted when slain | |
 | action.behaviour | behaviour | aggresive (seek enemy) or neutral (wait to be attacked) | required |
 | action.style | style | melee, leap melee, leap melee dual, archer or caster | required |
 | display.type | [type](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html) | monster base type | required |
 | display.name | string | displayname of the monster | required |
-| display.disguise | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#disguises) | disguise of the monster | / |
-| equipment | item list | either a material or an rpgcore item, lead with [slot](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/EquipmentSlot.html) | / |
-| loot-table | [loot table](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule%3A-Looting) | looting configuration of mob | / |
+| display.disguise | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#disguises) | disguise of the monster | |
+| equipment | item list | either a material or an rpgcore item, lead with [slot](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/EquipmentSlot.html) | |
+| loot-table | [loot table](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule%3A-Looting) | looting configuration of mob | |
 | attributes | attribute list | a list of attribute modifiers applied | required |
-| skills | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#skills) | either a custom skill or some linked skills | / |
+| skills | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#skills) | either a custom skill or some linked skills | |
 
 # Disguises
 
@@ -27,19 +27,38 @@ Prequisite (1): https://www.spigotmc.org/resources/libs-disguises.32453/
 Prequisite (2): https://www.spigotmc.org/resources/rpgcore-libsdisguises-bridge-v1-13-v1-15.72994/  
 Recommended: https://mineskin.org/
 
-| Option | Type | Description | Defaults |
+| Option | Type | Description | Required |
 |-|-|-|-|
 | | | | |
-| display.disguise.raw | string | disguise string within the libsdisguise specifications | / |
-| player | string | when using a player, define a name here | / |
-| signature | base64 string | when using a player, define a skin signature here | / |
-| encoded | base64 string | when using a player, define a skin encoding here | / |
+| display.disguise.raw | string | disguise string within the libsdisguise specifications | required |
+| player | string | when using a player, define a name here | sometimes |
+| signature | base64 string | when using a player, define a skin signature here | sometimes |
+| encoded | base64 string | when using a player, define a skin encoding here | sometimes |
+
+Example usage of a disguise, transforms a zombie into a player using [this skin](http://textures.minecraft.net/texture/eda48e190e604b999f3da1754804b8045c8c581eecee53c74ea8881257e22d63)
+
+```yml
+  display:
+    type: ZOMBIE
+    name: 'Undying Vagabond'
+    disguise:
+      # Do not touch the raw string unless you know what you are doing here!
+      raw: 'player %player% setSkin {"id":"a149f81bf7844f8987c554afdd4db533","name":"libraryaddict","properties":[{"signature":"%signature%","name":"textures","value":"%encoded%"}]}'
+      # Identity of player to queue up
+      player: rpgcoredummy
+      # Adjust Parameters here, you may use something like https://mineskin.org/ to generate the parameters passed here
+      # Skin Url: http://textures.minecraft.net/texture/eda48e190e604b999f3da1754804b8045c8c581eecee53c74ea8881257e22d63
+      signature: 'FiGCdX0UD8GkiZw3h/HFghzwJAZhePfbQGX5jmxaS/UJX3D8Xc6ftpyhILCJeu7IZJs7+Eao6avmoOLaEETlfs/FyYAEE4YpujN4kjNnn2VBMDPi3hfMyPbap7P2iheh7hmT8kjx8n1jFVkh3wiNmOfsC5b+BYvkHQIDQp6kEviIDo5Jl1mGy7t9U18wm1QXMi83uCNsDOvgR/xPxxQxlJ45gcr5MoDh3YDAPZ5nPwGe3TL7/SVQb2wvn0GJ3wcy0sOx7scyWaXnkL3U0HIS7iw8LD8ucleKXQQP1HTcy9Rg/d5eCcZ4D3R+5nq13a6e/y5D5pvYLVAMyTInlW3jokcN+Iirk4Grbis8pk7TJMb8a5DWVpIR2AMJjDPSt+o7saFO0neLPhNHkrpfUvlVwUyEhvU8W3GY4gfvqrOGJKQ4rcsRGyPnpaYKjSoGnEz4NkhpwZ7tPao7keaR2haDuXQC0P3nZmeUVpLTS8OJbWMwh6jd+Bjl9RV5ltIUk/FMAUc01lBmXDl1iVi2uSCEF/3gbrQ5RqtQV4LcVziiD6DPPSdzsmrns6bboOo1MqbcNHq+IbbZz6uZwrZ+WARa6fDnMbnM5Squ7vfy8SlgjkhC6Qw7kcctZsRbAreScZWOivbTRuryU/YaS3Pwd6PjQGQlpAFSfCpuZ/mmtO8Ro44='
+      # Encoding of skin utilized
+      encoded: 'eyJ0aW1lc3RhbXAiOjE1NzQ0MjI2MjU4NjMsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZGE0OGUxOTBlNjA0Yjk5OWYzZGExNzU0ODA0YjgwNDVjOGM1ODFlZWNlZTUzYzc0ZWE4ODgxMjU3ZTIyZDYzIn19fQ=='
+
+```
 
 # Skills
 
 You can define a custom skill within the skill configuration of a mob, allowing you to generate a unique behaviour specific to this mob.
 
-```
+```yml
   skills:
     # Instead of using the skills defined by the skill module, we got a unique
     #  mechanic that affects this mob
