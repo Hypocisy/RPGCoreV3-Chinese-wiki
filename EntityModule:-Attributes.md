@@ -46,6 +46,6 @@ The precise limit of mobs summoned is tied to the minion mechanic as-well, do no
 | Attribute | Description | Defaults |
 |-|-|-|
 | | | |
-| MINION_TYPE_LIMIT | how many different types of minions can be summoned | 1 |
+| MINION_TYPE_LIMIT | how many different types of minions can be summoned, rounded down | 1 |
 | AID_PARENT_ATTACK | When parent deals an attack, chance to target that entity | 0.0 |
 | AID_PARENT_DEFEND | When parent takes an attack, chance to target that entity | 0.0 |
