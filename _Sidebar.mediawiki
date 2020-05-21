@@ -2,8 +2,8 @@ __NOTOC__
 
 ==== EntityModule ====  
 * [[EntityModule: Creatures]] 
-* [[EntityModule: Spawners (Static)]] 
-* [[EntityModule: Spawners (Dynamic)]] 
+* [[EntityModule: Spawners]] 
+* [[EntityModule: Looting]] 
 ==== ItemModule  ====  
 * [[ItemModule: Affixes]] 
 * [[ItemModule: Items]] 
