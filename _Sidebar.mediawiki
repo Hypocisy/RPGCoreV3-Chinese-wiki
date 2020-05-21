@@ -1,17 +1,17 @@
 __NOTOC__
 
-==== EntityModule ====
+==== EntityModule ====  
 * [[EntityModule: Creatures]] 
 * [[EntityModule: Spawners (Static)]] 
 * [[EntityModule: Spawners (Dynamic)]] 
-==== ItemModule  ====
+==== ItemModule  ====  
 * [[ItemModule: Affixes]] 
 * [[ItemModule: Items]] 
 * [[ItemModule: Sockets]] 
 * [[ItemModule: Accessories]] 
 * [[ItemModule: Consumables]] 
-* [[ItemModule: Materials]] 
-* [[ItemModule: Offhand]] 
+* [[ItemModule: Materials]]  
+* [[ItemModule: Offhand]]  
 * [[ItemModule: Weapon]] 
 ==== [[LanguageModule]]  ====
 ==== [[MarketplaceModule]]  ====
