@@ -4,6 +4,7 @@ __NOTOC__
 * [[EntityModule: Creatures]] 
 * [[EntityModule: Spawners]] 
 * [[EntityModule: Looting]] 
+* [[EntityModule: Attributes]]
 ==== ItemModule  ====  
 * [[ItemModule: Affixes]] 
 * [[ItemModule: Items]] 
