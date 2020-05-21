@@ -11,14 +11,14 @@ Only monsters that were created by rpgcore will be affected by it, do not utiliz
 | leash-range | integer | teleport to spawnpoint after exceeding distance | -1 |
 | experience | integer | player experience granted when slain | 0 |
 | skill-experience | integer | skill experience granted when slain | 0 |
-| action.behaviour | behaviour | aggresive (seek enemy) or neutral (wait to be attacked) | / |
-| action.style | style | melee, leap melee, leap melee dual, archer or caster | / |
-| display.type | [type](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html) | monster base type | / |
-| display.name | string | displayname of the monster | / |
+| action.behaviour | behaviour | aggresive (seek enemy) or neutral (wait to be attacked) | required |
+| action.style | style | melee, leap melee, leap melee dual, archer or caster | required |
+| display.type | [type](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html) | monster base type | required |
+| display.name | string | displayname of the monster | required |
 | display.disguise | [disguise configuration](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#disguises) | disguise of the monster | / |
 | equipment | item list | either a material or an rpgcore item, lead with [slot](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/EquipmentSlot.html) | / |
 | loot-table | [loot table](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule%3A-Looting) | looting configuration of mob | / |
-| attributes | attribute list | a list of attribute modifiers applied | / |
+| attributes | attribute list | a list of attribute modifiers applied | required |
 | skills | [skill configuration](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#skills) | either a custom skill or some linked skills | / |
 
 # Disguises
