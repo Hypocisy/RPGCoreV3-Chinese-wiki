@@ -31,14 +31,14 @@ Recommended: https://mineskin.org/
 |-|-|-|-|
 | | | | |
 | display.disguise.raw | string | disguise string within the libsdisguise specifications | required |
-| display.disguise.player | string | when using a player, define a name here | |
+| display.disguise.player | string | custom name of player | |
 | display.disguise.name | string | custom display name override | |
-| display.disguise.signature | base64 string | when using a player, define a skin signature here | |
-| display.disguise.encoded | base64 string | when using a player, define a skin encoding here | |
+| display.disguise.signature | base64 string | custom skin signature of a player | |
+| display.disguise.encoded | base64 string | custom skin encoding of a player | |
 | display.disguise.baby | boolean | use baby form of the mob | |
 | display.disguise.equipment | item list | either a material or an rpgcore item, lead with [slot](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/EquipmentSlot.html) | |
 
-Example usage of a disguise, transforms a zombie into a player using a certain skin
+Example usage of a disguise, transforms a zombie into a player using a certain skin. You can research libsdisguises yourself to figure out more advanced disguises.
 
 ```yml
   display:
