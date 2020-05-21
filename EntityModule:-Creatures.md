@@ -1,4 +1,4 @@
-Directory: "./../entitymodule/creatures"
+Directory: "./../entitymodule/creatures"  
 Module: EntityModule
 
 Only monsters that were created by rpgcore will be affected by it, do not utilize a third party mob plugin.
@@ -8,7 +8,7 @@ Only monsters that were created by rpgcore will be affected by it, do not utiliz
 | Option | Type | Description | Defaults |
 |-|-|-|-|
 | | | | |
-| leash-range | integer | teleport to spawnpoint after exceeding distance | required |
+| leash-range | integer | teleport to spawnpoint after exceeding distance | |
 | experience | integer | player experience granted when slain | |
 | skill-experience | integer | skill experience granted when slain | |
 | action.behaviour | behaviour | aggresive (seek enemy) or neutral (wait to be attacked) | required |
@@ -18,7 +18,7 @@ Only monsters that were created by rpgcore will be affected by it, do not utiliz
 | display.disguise | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#disguises) | disguise of the monster | |
 | equipment | item list | either a material or an rpgcore item, lead with [slot](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/EquipmentSlot.html) | |
 | loot-table | [loot table](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule%3A-Looting) | looting configuration of mob | |
-| attributes | attribute list | a list of attribute modifiers applied | required |
+| attributes | attribute list | a list of attribute modifiers applied | |
 | skills | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#skills) | either a custom skill or some linked skills | |
 
 # Disguises
@@ -31,18 +31,21 @@ Recommended: https://mineskin.org/
 |-|-|-|-|
 | | | | |
 | display.disguise.raw | string | disguise string within the libsdisguise specifications | required |
-| player | string | when using a player, define a name here | sometimes |
-| signature | base64 string | when using a player, define a skin signature here | sometimes |
-| encoded | base64 string | when using a player, define a skin encoding here | sometimes |
+| display.disguise.player | string | when using a player, define a name here | |
+| display.disguise.name | string | custom display name override | |
+| display.disguise.signature | base64 string | when using a player, define a skin signature here | |
+| display.disguise.encoded | base64 string | when using a player, define a skin encoding here | |
+| display.disguise.baby | boolean | use baby form of the mob | |
+| display.disguise.equipment | item list | either a material or an rpgcore item, lead with [slot](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/EquipmentSlot.html) | |
 
-Example usage of a disguise, transforms a zombie into a player using [this skin](http://textures.minecraft.net/texture/eda48e190e604b999f3da1754804b8045c8c581eecee53c74ea8881257e22d63)
+Example usage of a disguise, transforms a zombie into a player using a certain skin
 
 ```yml
   display:
     type: ZOMBIE
     name: 'Undying Vagabond'
     disguise:
-      # Do not touch the raw string unless you know what you are doing here!
+      # The raw form of the disguise utilized
       raw: 'player %player% setSkin {"id":"a149f81bf7844f8987c554afdd4db533","name":"libraryaddict","properties":[{"signature":"%signature%","name":"textures","value":"%encoded%"}]}'
       # Identity of player to queue up
       player: rpgcoredummy
@@ -56,7 +59,7 @@ Example usage of a disguise, transforms a zombie into a player using [this skin]
 
 # Skills
 
-You can define a custom skill within the skill configuration of a mob, allowing you to generate a unique behaviour specific to this mob.
+You can define a custom skill within the skill configuration of a mob, allowing you to generate a unique behaviour specific to this mob. This is a complete skill, and the mob will always acquire the primary behaviour on spawning.
 
 ```yml
   skills:
