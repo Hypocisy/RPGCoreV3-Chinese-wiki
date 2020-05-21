@@ -1,10 +1,10 @@
 __NOTOC__
 
-==== [[EntityModule]] ====
+==== EntityModule ====
 * [[EntityModule: Creatures]] 
 * [[EntityModule: Spawners (Static)]] 
 * [[EntityModule: Spawners (Dynamic)]] 
-==== [[ItemModule]]  ====
+==== ItemModule  ====
 * [[ItemModule: Affixes]] 
 * [[ItemModule: Items]] 
 * [[ItemModule: Sockets]] 
@@ -15,11 +15,11 @@ __NOTOC__
 * [[ItemModule: Weapon]] 
 ==== [[LanguageModule]]  ====
 ==== [[MarketplaceModule]]  ====
-==== [[PassiveTreeModule]]  ====
+==== PassiveTreeModule  ====
 * [[PassiveTreeModule: Usage]] 
 * [[PassiveTreeModule: Creation]] 
 ==== [[RPAssistant]]  ====
-==== [[SkillModule]]  ====
+==== SkillModule  ====
 * [[SkillModule: Itemization]] 
 * [[SkillModule: Effect Cluster]] 
 * [[SkillModule: Levelling]] 
@@ -36,17 +36,17 @@ __NOTOC__
 ==== [[CraftEnemyHealthBar]]  ====
 ==== [[CraftEntityHoloTagModule]]  ====
 ==== [[CustomAttribute]]  ====
-==== [[DamageModule]]  ====
+==== DamageModule  ====
 * [[DamageModule: Hardcoded Behaviour]] 
 * [[DamageModule: Customizing Damage]] 
 ==== [[DefaultCharacterSelectionModule]]  ====
 ==== [[EquipmentRestrictionModule]]  ====
 ==== [[FontMagicActionBarModule]]  ====
 ==== [[ItemPointerModule]]  ====
-==== [[LevelModule]]  ====
+==== LevelModule  ====
 * [[LevelModule: Configuring Levels]] 
 * [[LevelModule: Passive Points]] 
-==== [[OffhandModule]]  ====
+==== OffhandModule  ====
 * [[OffhandModule: Spellbooks]] 
 * [[OffhandModule: Totems]] 
 * [[OffhandModule: Traps]] 
