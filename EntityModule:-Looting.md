@@ -5,6 +5,8 @@ Looting is based on tagging. Every item in RPGCore is meant to be tagged. While 
 
 When a mob drops an item, it first rolls a tag. When it picked a tag, it will select a random item which is subscribed to that tag. It may re-roll the item based on the fortune, trying to pick the rarest outcome. This repeats until the item quantity is exhausted.
 
+Should a mob be summoned by a skill, it will not be able to drop any items.
+
 # Tagging an item
 
 This is an option within the configuration of an item, you can define a unique tag to an item if you want to cause a specific item to be dropping.
