@@ -14,6 +14,7 @@ __NOTOC__
 * [[ItemModule: Materials]]  
 * [[ItemModule: Offhand]]  
 * [[ItemModule: Weapon]] 
+* [[ItemModule: Rarity]]
 ==== [[LanguageModule]]  ====
 ==== [[MarketplaceModule]]  ====
 ==== PassiveTreeModule  ====
