@@ -12,7 +12,7 @@ The general configuration option of the affixing system.
 | title | string | the title of the details to be printed on the item |
 | multi-affix-chance | percentage | fill a slot until failing the roll, only on creation |
 | slots-by-rarity | rarity mapping | rarity mapped to the extra affix slots on the item |
-| affixing-groups | custom mapping | will be assigned to an item, defining which affixes it can roll |
+| affixing-groups | section | items may only roll affixes of their specific group |
 
 # Configuration (./../itemmodule/items)
 
