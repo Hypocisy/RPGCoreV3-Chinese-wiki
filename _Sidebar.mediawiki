@@ -17,6 +17,7 @@ __NOTOC__
 * [[ItemModule: Weapon]] 
 * [[ItemModule: Rarity]]
 * [[ItemModule: Coloring]]
+* [[ItemModule: Set Effects]]
 * [[ItemModule: Examples]]
 ==== [[LanguageModule]]  ====
 ==== [[MarketplaceModule]]  ====
