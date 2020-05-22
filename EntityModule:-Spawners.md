@@ -3,6 +3,8 @@ Module: EntityModule
 
 The filename should match with your world name, RPGCore then will handle the spawning within that world. It is recommended that you disable natural spawning rules, as only rpgcore mobs interact with rpgcore. Avoid mob stacking plugins.
 
+It is recommended to disable natural mob spawning when using RPGCore, you can do this using the mob spawning [gamerule](https://minecraft.gamepedia.com/Commands/gamerule)
+
 | Option | Type | Description | Defaults |
 |-|-|-|-|
 | world-spawn-interval | integer | interval at which we update the mob spawning | required |
@@ -39,15 +41,15 @@ You will need to specify every single spawner location manually should you defin
       UNDYING_VAGABOND: 1
 ```
 
-# Dynamic Configuration
+# Random Configuration
 
-Spawners defined here are all isolated from each other, every player will attempt to tick every rule.
+Spawners defined here are all isolated from each other, every player will attempt to tick every rule. 
 
 If you want mobs to spawn on the floor use the "**GROUNDED**" required-state.  
 If you want mobs to spawn in liquid use the "**SUBMERGED**" required-state.  
 If you want mobs to spawn at the bottom of liquid use the "**FLOODED**" required-state.
 
-The sampled points are at a distance of 32 to 64 blocks from a player, but the position on the y axis is a bit flatter.
+The random points are sampled at a distance of 32 to 64 blocks from a player, but the position on the y axis is a bit flatter.
 
 | Option | Type | Description | Defaults |
 |-|-|-|-|
