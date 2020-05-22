@@ -8,9 +8,9 @@ __NOTOC__
 * [[EntityModule: Examples]]
 ==== ItemModule  ====  
 * [[ItemModule: Affixes]] 
-* [[ItemModule: Items]] 
-* [[ItemModule: Sockets]] 
+* [[ItemModule: Sockets]]
 * [[ItemModule: Accessories]] 
+* [[ItemModule: Armor]] 
 * [[ItemModule: Consumables]] 
 * [[ItemModule: Materials]]  
 * [[ItemModule: Offhand]]  
