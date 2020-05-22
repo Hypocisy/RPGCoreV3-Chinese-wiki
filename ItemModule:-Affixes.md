@@ -22,8 +22,8 @@ If you define a negative number of affixes on the item, you can prevent item rar
 
 | Option | Type | Description |
 |-|-|-|
-| custom-tags.affixing-pool | string | an affixing pool defined by the itemmodule configuration file |
-| custom-tags.default-affixes | integer | the base amount of affixes for this item, adds up with rarity. |
+| custom-tags.affixing-pool | string | only affixes of this group shall be rolled |
+| custom-tags.default-affixes | integer | base amount of slots for affixes |
 
 # Configuration (./../itemmodule/affixes)
 
