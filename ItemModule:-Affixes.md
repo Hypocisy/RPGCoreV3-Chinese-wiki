@@ -25,9 +25,9 @@ If you define a negative number of affixes on the item, you can prevent item rar
 | custom-tags.affixing-pool | string | only affixes of this group shall be rolled |
 | custom-tags.default-affixes | integer | base amount of slots for affixes |
 
-# Configuration (./../itemmodule/affixes)
+# Configuration (./../itemmodule/affixes) - Manually
 
-You can define affixes like following
+You can manually define affixes like following
 
 | Option | Type | Description |
 |-|-|-|
@@ -87,7 +87,9 @@ STRENGTH_T2:
   tier: 2
 ```
 
-If you want to reduce your workload, you can utilize the generator notation to write the affixes. Add `auto-generator: true` as an option and instead of having to type every affix tier out by hand it will generate them in bulk by your definition.
+# Configuration (./../itemmodule/affixes) - Assisted
+
+If you want to reduce your workload, you can utilize the generator notation to assist you in writing the affixes. Add `auto-generator: true` as an option and instead of having to type every affix tier out by hand it will generate them in bulk using a fairly compact notation.
 
 | Option | Type | Description |
 |-|-|-|
