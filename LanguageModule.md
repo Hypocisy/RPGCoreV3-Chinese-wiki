@@ -18,7 +18,7 @@ The general configuration options of the language module.
 | skill-level-scaling-pattern | string | pattern for the scaling of an explicit skill its level |
 | level-keywords | section | refers to the three ways an attribute can be affected |
 | chest-gui-title | section | titles of the respective chest gui interfaces |
-| passive-tree | section | details of the passive tree HUD |
+| passive-tree | section | details of the navigation elements of the passive tree |
 | general-mappings | section | usually meant to send messages to players, start up will list the latest |
 | note-when-jewel | string list | extra description to indicate how to socket a jewel |
 | note-when-skill | string list | extra description to indicate how to socket a skill |
