@@ -9,8 +9,8 @@ This module stands in context with the DamageModule itself, it handles the thing
 |-|-|-|
 | carry-minecraft-combat-damage | boolean | **prevents** normal (non rpgcore) items from dealing damage |
 | default-melee-element | string | default element that attacking in melee inflicts |
-| default-projectile-element | string default element that attacking with bows inflicts |
-| barehanded-modifiers | allows empty handed damage, adds "UNARMED" as a damage type |
+| default-projectile-element | string | default element that attacking with bows inflicts |
+| barehanded-modifiers | attribute modifiers | allows empty handed damage, adds "UNARMED" as a damage type. Beware that these are combat attirbutes, NOT entity attributes. |
 
 # Hardcoded Behaviour
 
@@ -23,5 +23,5 @@ There is some hard coded behaviour of damage you cannot modify, the specifics ar
 5. Hitting from behind adds "BACKSTAB_RANGE" or "BACKSTAB_MELEE" as a damage type
 6. If the damage is not considered a BACKSTAB adds "NOT_BACKSTAB" as a damage type
 7. Projecitles add the "PROJECTILE" damage type
-8. Projectiles add the "PROJECTILE_<type>" damage type, where type is the [entity type of the projectile](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html)
+8. Projectiles add the "PROJECTILE_\<type>" damage type, where type is the [entity type of the projectile](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html)
 9. When hit attacked melee, the "MELEE" damage type is added 
