@@ -27,6 +27,7 @@ This covers general item configuration, equipment still may need to specify the 
 | skull | skull encoding | https://minecraft-heads.com/ "value" |
 | consumable | skill configuration | a locally defined skill with a consumer trigger |
 | custom-model | integer | pre-1.14 will be unbreakable+durability, 1.14+ will be custom model override. |
+| custom-tags.overstacking | integer | will override the stacking limit, still experimental. **Meant to be used for non stackable items.** |
 
 # Configuration (./../itemmodule/items) - Equipment
 
