@@ -3,7 +3,7 @@ Module: ItemModule
 
 Items created from within RPGCore can affect players and monsters alike. There is no differentiation between a player having an item, and a mob having an item. 
 
-However, beware that monsters may not have the same equipment slots as players (iE: Accessories may not be equipable!)
+However, beware that monsters may not have the same equipment slots as players (iE, Accessories) or usage capabilities (iE, using complex skills)
 
 # Configuration (./../itemmodule/items) - Items
 
