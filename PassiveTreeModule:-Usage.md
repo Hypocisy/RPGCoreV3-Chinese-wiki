@@ -1,5 +1,5 @@
 Directory: "./../passivetreemodule"  
-Module: PassiveTreeModule, SkillModule, LevelModule
+Module: PassiveTreeModule, LevelModule
 
 Depending on interpretation, a passive tree also could be considered a class. If you design accordingly, you could build up a system for class advancements after passing a certain level.
 
