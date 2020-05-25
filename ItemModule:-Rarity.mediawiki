@@ -1,0 +1,19 @@
+Directory: "./../itemmodule/items"  
+Module: ItemModule
+
+Item rarity is not hard coded, however modifying it will require to match **several** configuration files for it. Beneath you can find a listing of all modules and configuration files that are affected by item rarity. This list may not be accurate at all times.
+
+Warning: **All items roll a rarity upon being created.** You cannot modify the item rarity of an existing item.
+
+* Item Configurations.  
+** All items from the item module may have an rarity defined (when undefined, uses default weighting)
+** Socketable jewels may have an item with a rarity setup.
+** Itemized skills may have an item with a rarity setup.
+* ItemModule Configurations.  
+** You need to add the default weighting for the rarity, if it can happen "randomly"
+** You need to add/update the item rarity mappings for extra benefits.
+** You need to update the configuration to add a naming pattern for the item.
+* ItemPointerModule Configurations.  
+** Update the mappings that relate to item rarity
+
+Item rarity on itself does not offer any specific effects, just what is defined by the specific details above. Stuff like extra sockets or additional slots for affixes.
