@@ -48,7 +48,7 @@ __NOTOC__
 * [[DamageModule: Examples]]
 ==== [[DefaultCharacterSelectionModule]]  ====
 ==== [[EquipmentRestrictionModule]]  ====
-==== [[FontMagicActionBarModule]]  ====
+==== [[FontMagicModule]]  ====
 ==== [[ItemPointerModule]]  ====
 ==== LevelModule  ====
 * [[LevelModule: Configuring Levels]] 
