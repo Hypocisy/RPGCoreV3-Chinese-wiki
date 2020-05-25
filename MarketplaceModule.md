@@ -1,4 +1,4 @@
-Directory: "./../itemmodule/sockets"  
+Directory: "./../marketplacemodule"  
 Module: MarketplaceModule
 Download: https://www.spigotmc.org/resources/78790/
 
