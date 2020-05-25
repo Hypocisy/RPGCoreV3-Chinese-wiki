@@ -3,7 +3,7 @@ Module: CraftEntityHoloTagModule
 
 There is no configuration available for this module, except the capacity to disable it. The holotag module will create a series of floating holograms atop a player.
 
-There are the following holograms:
+There are the following holograms, a hologram is not shown if it is not applicable. Additional holograms may be added at a later point.
 
 | Hologram | Position | Content |
 |-|-|-|
