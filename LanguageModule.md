@@ -58,3 +58,18 @@ LEECH_AS_HEALTH_COLD: "{AMOUNT:PERCENT} {LEVEL} health leeched from cold damage"
 ...
 LEECH_AS_MANA_CHAOS: "{AMOUNT:PERCENT} {LEVEL} mana leeched from chaos damage"
 ```
+
+# Formatting types that are accepted 
+
+When formatting a number, you can utilize the following ways for formatting them (this is used across the whole core.) Should a wrong type be defined you will fallback to formatting as a decimal.
+
+| Option | Description | Example (1) | Example (2) |
+|-|-|-|
+| PERCENT | formats a decimal as a percentage | 0.08 <=> +8% | 1.58 <=> +158% |
+| INT_PERCENT | formats a integer as a percentage | 113 <=> +113% | 11.5 <=> +11% |
+| DECIMAL | formats a decimal to 1 comma digit | 1.581 <=> 1.5 | 3.2 <=> 3.2 |
+| BOOLEAN | greater-equal formatted into "yes" | 0.94 <=> "No" | 1.04 <=> "Yes" |
+| TICK_SECONDS | ticks converted to seconds | 58 <=> "2.9s" | 10 <=> "0.5s" |
+| TICK_TIME | ticks converted to seconds | 58 <=> "2.9s" | 10 <=> "0.5s" |
+| SECONDS | ticks converted to mm:ss | 580 <=> 00:29 | 24220 <=> 20:11 |
+| TIME | ticks converted to mm:ss | 580 <=> 00:29 | 24220 <=> 20:11 |
