@@ -1,9 +1,9 @@
 Directory: "./../itemmodule/items"  
 Module: ItemModule, SkillModule
 
-Consumable items are a special case, it behaves differently then other behaviours as to allow it integrating into the skill system while still retaining the "consumable" aspect of it. By design, a consumable is meant to used attach a behaviour to the player for the duration of its buff effect or grant an instant effect to them.
+Consumable items are a mix of items and skills. When consuming the item, it will proc a certain behaviour on the item and you can add some follow up logic after that behaviour is triggered. 
 
-You may need to read additional articles on the respective skill module sections to make more complex things with the module, but the two examples below should be sufficient to give you an idea of what you can do. There is no restriction to what you can do with the consumable, just remember that the 'consumable' trigger only is meant to be an entry point.
+You may want to check up on the articles of the skill module to create more advanced consumable items.
 
 # Skill Trigger 'consume'
 
