@@ -1,7 +1,7 @@
 Directory: "./../itemmodule", "./../offhandmodule.yml"  
 Module: ItemModule, OffhandModule
 
-# Usage
+# Usage of Shields 
 
 Using a shield opens up "Blocking Power", the resource is recovered when your shield is lowered and consumed when your shield is raised. When you exhaust your blocking power, your shield will be put on a cooldown. The blocking power will absorb all damage, so long you have sufficient amounts of it.
 
@@ -15,7 +15,7 @@ Blocking from the "BLOCK_CHANCE" attribute and blocking from raising your shield
 | shield-decay | percentage | percentage of blocking power to lose per second while shield is raised |
 | shield-targets | damage type list | a specific list of damage types that can be blocked |
 
-# Example
+# Example for Shields
 
 Beneath is an example for a shield that you can add to your offhand, it absorbs any kind of damage and grants a passive chance to absorb any kind of damage.
 
