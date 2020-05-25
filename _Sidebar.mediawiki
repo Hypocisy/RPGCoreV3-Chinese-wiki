@@ -9,7 +9,7 @@ __NOTOC__
 ==== ItemModule  ====  
 * [[ItemModule: Affixes]]   
 * [[ItemModule: Sockets]]  
-* [[ItemModule: Equipment & Items]]  
+* [[ItemModule: Items]]  
 * [[ItemModule: Consumables]]  
 * [[ItemModule: Materials]]  
 * [[ItemModule: Offhand]]  
