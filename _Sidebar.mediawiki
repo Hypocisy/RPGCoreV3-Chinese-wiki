@@ -60,6 +60,5 @@ __NOTOC__
 * [[OffhandModule: Traps]] 
 * [[OffhandModule: Shields]] 
 * [[OffhandModule: Dualwield]] 
-* [[OffhandModule: Examples]]
 ==== [[TitleModule]]  ====
 ==== [[WorldGuardModule]]  ====
