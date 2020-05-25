@@ -1,9 +1,9 @@
 Directory: "./../itemmodule/items"  
 Module: ItemModule
 
-Item rarity is not hard coded, however modifying it will require to match **several** configuration files for it. Beneath you can find a listing of all modules and configuration files that are affected by item rarity. This list may not be accurate at all times.
+Item rarity is not hard coded, however modifying it will require to match ''several'' configuration files for it. Beneath you can find a listing of all modules and configuration files that are affected by item rarity. This list may not be accurate at all times.
 
-Warning: **All items roll a rarity upon being created.** You cannot modify the item rarity of an existing item.
+Warning: ''All items roll a rarity upon being created.'' You cannot modify the item rarity of an existing item.
 
 * Item Configurations.  
 ** All items from the item module may have an rarity defined (when undefined, uses default weighting)
