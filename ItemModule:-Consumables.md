@@ -9,7 +9,7 @@ You may want to check up on the articles of the skill module to create more adva
 
 When a behaviour has a trigger like this it should **not** be marked as a primary or secondary behaviour. It will only be present for the instant of "consuming" it (right click while holding the item)
 
-Beware that the noconsume can **only** apply per material. This is a minecraft hardcoded limitation.
+Beware that the noconsume can **only** apply to a material, not a specific item. This is a minecraft hardcoded limitation.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
