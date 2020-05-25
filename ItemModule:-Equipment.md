@@ -15,11 +15,11 @@ This covers general item configuration, equipment still may need to specify the 
 | durability | integer | durability to set to |
 | unbreakable | boolean | mark the item as unbreakable |
 | flags | list of flags | [ItemFlag](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html) to add to the created item copy |
-| material | material | the minecraft material to use for this item |
+| material | material | the [Material](https://github.com/CryptoMorin/XSeries/blob/master/src/main/java/com/cryptomorin/xseries/XMaterial.java) to use for this item |
 | name | string | displayname of the item, may be further modified |
 | lore | string list | mostly meant for flavor texts|
-| rarity | rarity | explicit rarity or rarity weighing, can be undefined |
-| seed | boolean | seed the item randomly, the RANGE function needs a seeded item |
+| rarity | rarity | explicit [Item Rarity](https://github.com/Blutkrone/RPGCoreV3/wiki/ItemModule%3A-Rarity) or rarity weighing |
+| seed | boolean | seed the item randomly, mostly meant for items that have random things |
 | implicits | attribute list | always available attributes for the item |
 | custom-tags | section | nbt data to write on the spawned item |
 | leather-color | integer | integer or hexadecimal for leather color |
@@ -34,8 +34,8 @@ This covers general item configuration, equipment still may need to specify the 
 
 | Option | Type | Description |
 |-|-|-|
-| color-weighing | color-integer | the weighing used when rolling the color arrangement |
-| local-data.affixing-pool | string | affixing pool to use when rolling for affixes |
+| color-weighing | color-integer | the weighing used when rolling the [ItemModule: Coloring] |
+| local-data.affixing-pool | string | affixing pool to use when rolling for [ItemModule: Affixes] |
 | local-data.main-skills | skill:level list | socketed skills will support these skills |
 | local-data.support-skills | skill:level list | socketed skills are supported by these skills |
 | local-data.link-state | string | local value using 0 and 1 to represent the skill linking state (locked/unlocked) |
@@ -44,6 +44,8 @@ This covers general item configuration, equipment still may need to specify the 
 # Combat modifiers for weapons
 
 Note that these parameters can be present on arrows too and will overlap with the modifiers present on the bow.
+
+You can read up on further details in the [DamageModule: Hardcoded Behaviour] article, there is a section specific to how items interact with the damage module and how damage itself is setup.
 
 | keyword | type | description |
 |-|-|-|
