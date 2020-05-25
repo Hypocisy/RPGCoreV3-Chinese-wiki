@@ -25,15 +25,15 @@ __NOTOC__
 * [[PassiveTreeModule: Examples]]
 ==== [[RPAssistant]]  ====
 ==== SkillModule  ====
+* [[SkillModule: Behaviours]] 
+* [[SkillModule: Triggers]] 
+* [[SkillModule: Mechanics]] 
+* [[SkillModule: Targetters]] 
+* [[SkillModule: Conditions]] 
 * [[SkillModule: Itemization]] 
 * [[SkillModule: Effect Cluster]] 
 * [[SkillModule: Levelling]] 
-* [[SkillModule: Behaviours]] 
 * [[SkillModule: Variables]] 
-* [[SkillModule: Conditions]] 
-* [[SkillModule: Mechanics]] 
-* [[SkillModule: Targetters]] 
-* [[SkillModule: Triggers]] 
 * [[SkillModule: Examples]]
 ==== [[AttributeSuperWriterModule]]  ====
 ==== [[CraftAdvancedEquipmentModule]]  ====
