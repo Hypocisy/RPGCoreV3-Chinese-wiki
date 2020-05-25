@@ -52,7 +52,7 @@ POTION_OF_STRENGTH:
         id: POTION_OF_STRENGTH
         # utilized to display the effect
         name: "&aPotion of Strength"
-        # the effect procs every 20 ticks
+        # the actions proc every 20 ticks
         trigger: timer{interval=20}
         # the effect just spawns a bunch of particles around the owner
         actions:
