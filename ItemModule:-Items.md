@@ -13,6 +13,7 @@ This covers general item configuration, equipment still may need to specify the 
 |-|-|-|
 | amount | integer | amount to set to |
 | durability | integer | durability to set to |
+| custom-model | integer | pre-1.14 will be unbreakable+durability, 1.14+ will be custom model override. |
 | unbreakable | boolean | mark the item as unbreakable |
 | flags | list of flags | [ItemFlag](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html) to add to the created item copy |
 | material | material | the [Material](https://github.com/CryptoMorin/XSeries/blob/master/src/main/java/com/cryptomorin/xseries/XMaterial.java) to use for this item |
@@ -26,7 +27,6 @@ This covers general item configuration, equipment still may need to specify the 
 | potion-color | integer | integer or hexadecimal for potion color | 
 | skull | skull encoding | https://minecraft-heads.com/ "value" |
 | consumable | skill configuration | a locally defined skill with a consumer trigger |
-| custom-model | integer | pre-1.14 will be unbreakable+durability, 1.14+ will be custom model override. |
 | custom-tags.overstacking | integer | will override the stacking limit, still experimental. **Meant to be used for non stackable items.** |
 
 # Configuration (./../itemmodule/items) - Equipment
