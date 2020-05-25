@@ -24,7 +24,7 @@ Beware that you will need to dig deeper into the fonts if you want to modify the
 
 # Configuring font constants
 
-These values are (mostly) results of trial and error. If you change one value, you are expected to tinker around until you find the proper values yourself. Do not expect me to help you figuring the numbers out.
+These values are (mostly) results of trial and error. If you change one value, you are expected to tinker around until you find the proper values yourself. Do not expect me to help you figuring the numbers out after you change something.
 
 | Option | Type | Description | Defaults |
 |-|-|-|-|
