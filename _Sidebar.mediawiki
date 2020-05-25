@@ -39,9 +39,9 @@ __NOTOC__
 ==== [[CraftAdvancedEquipmentModule]]  ====
 ==== [[CraftDamageModule]]  ====
 ==== [[CraftDefaultAttributeModule]]  ====
-==== [[CraftEnemyHealthBar]]  ====
+==== [[CraftEnemyHealthBarModule]]  ====
 ==== [[CraftEntityHoloTagModule]]  ====
-==== [[CustomAttribute]]  ====
+==== [[CustomAttributeModule]]  ====
 ==== DamageModule  ====
 * [[DamageModule: Hardcoded Behaviour]] 
 * [[DamageModule: Customizing Damage]] 
