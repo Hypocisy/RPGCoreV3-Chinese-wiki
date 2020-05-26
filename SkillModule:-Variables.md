@@ -1,0 +1,60 @@
+Directory: "./../skillmodule/skills"  
+Module: SkillModule
+
+Variables are accessible across the whole skill system. **Some** of these variables may also be accessed as an entity attribute, but should be avoided as much as possible (the implementation is optimized for the skill system, not for entity attributes!) 
+
+## Red Variables, Golden Variables
+
+The description of a skill may show up two types colors. When a variable is colored red, it means that we are dealing with an approximation. When a variable is colored yellow, it is the latest state of it. Red numbers should be identical for everyone, but yellow numbers tend to differ a fair bit.
+
+## Utilizing Variables
+
+A variable is expected to be written like
+
+```yml
+    CAST_TIME:
+      value: 60-LEVEL
+      tags: [INTELLIGENCE, BUFF, SPELL]
+```
+
+Where value is evaluated when requested, the tags allow for easier global modification of it. 
+
+For example, if you want to offer something like "Reduced cast time for buff skills" you could reference "CAST_TIME:BUFF" if you want something like "Reduced cast time for all spells" you could reference "CAST_TIME:SPELL" for it. Excluding the latter half, just modifying "CAST_TIME" will skip any checks.
+
+The special tags "TOME", "TRAP", "TOTEM", "TRIGGERED" are automatically added based on which trigger caused it. Triggered refers to the "signal" trigger.
+
+## A listing of all variables
+
+| Variable | Purpose |
+|-|-|
+| LVL/LEVEL | Level of the attached skill, 0 if undefined. The level is based on the skill which granted us the skill. |
+| ATTACHMENT_REMAINING_DURATION | If defined, highest remaining duration |
+| ATTACHMENT_CURRENT_STACKS| If defined, current stack count |
+| ATTACHMENT_MAX_STACKS| If defined, maximum number of stacks this attached behaviour can have |
+| ATTACHMENT_MAX_DURATION| If defined, duration which this attached behaviour refreshes to |
+| BOW_FORCE | If defined, bow tension used when releasing a trap |
+| LOCAL_POS | If defined, the index of the skill within its contained skill link |
+| GLOBAL_POS | If defined, the index of the skill within the item | 
+| SELF_<...> | Remaining Health, Shield, Mana or Attribute of behaviour owner |
+| PARENT_<...> | Remaining Health, Shield, Mana or Attrbiute of behaviour giver |
+| SELF_LEVEL | If defined the level of the entity |
+| PARENT_LEVEL | If defined the level of the parent that attached the behaviour |
+| TARGET_LEVEL | If defined the target inherited by the targetter |
+| SELF_BLOCKPOWER | Block power (used with offhand shield items) that remains of the owner | 
+| PARENT_BLOCKPOWER | Block power (used with offhand shield items) that remains of the parent | 
+| TARGET_BLOCKPOWER | Block power (used with offhand shield items) that remains of the target | 
+| TRAP_BURST_CHAIN | A single burst chain refers to traps that popped in a connected fashion, this will increment as the traps keep popping |
+| ACTIVE_TOTEM_TOTAL | current number of placed totems |
+| ACTIVE_TRAP_TOTAL | current number of placed traps |
+| Variable | Description | Events/Trigger |
+| EVENT_DAMAGE_%ELEMENT% | final damage result, only with damage triggers |
+| OVERKILL_AMOUNT | damage exceeding health, only with killing triggers |
+| CURRENT_INTERVAL | how often the mechanic was repeated |
+| CHANNELING_INTERVAL | how often was the channeling procced, only with channeling triggers |
+
+## Default Functions
+
+| Function | Purpose |
+|-|-|
+| STACKS | accept id of behaviour we are checking, current stack count of a certain attachment |
+| DURATION | Attachment Id | accept id of behaviour we are checking, remaining duration of a certain attachment |
