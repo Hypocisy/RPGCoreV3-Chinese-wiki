@@ -43,7 +43,6 @@ __NOTOC__
 ==== DamageModule  ====
 * [[DamageModule: Hardcoded Behaviour]] 
 * [[DamageModule: Customizing Damage]] 
-* [[DamageModule: Examples]]
 ==== [[DefaultCharacterSelectionModule]]  ====
 ==== [[EquipmentRestrictionModule]]  ====
 ==== [[FontMagicModule]]  ====
