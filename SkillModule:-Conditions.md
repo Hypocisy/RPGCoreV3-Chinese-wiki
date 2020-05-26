@@ -14,7 +14,7 @@ Conditions are used to narrow down targets, usually whenever you can input a con
 | [[crouching]] | [[linked-slot]] | [[equipped]] | [[event-data]] | [[entity-type]] |
 | [[soul-condition]] | [[worldguard]] | [[time]] | [[biome]] | [[rpgcore-type]] |
 
-# Configuration of Targetters
+# Configuration of Conditions
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
