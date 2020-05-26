@@ -46,7 +46,6 @@ The special tags "TOME", "TRAP", "TOTEM", "TRIGGERED" are automatically added ba
 | TRAP_BURST_CHAIN | A single burst chain refers to traps that popped in a connected fashion, this will increment as the traps keep popping |
 | ACTIVE_TOTEM_TOTAL | current number of placed totems |
 | ACTIVE_TRAP_TOTAL | current number of placed traps |
-| Variable | Description | Events/Trigger |
 | EVENT_DAMAGE_%ELEMENT% | final damage result, only with damage triggers |
 | OVERKILL_AMOUNT | damage exceeding health, only with killing triggers |
 | CURRENT_INTERVAL | how often the mechanic was repeated |
