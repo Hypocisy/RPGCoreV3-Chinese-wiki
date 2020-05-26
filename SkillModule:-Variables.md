@@ -59,4 +59,4 @@ Functions relative to the asking party.
 | Function | Purpose |
 |-|-|
 | STACKS | accept id of behaviour we are checking, current stack count of a certain attachment |
-| DURATION | Attachment Id | accept id of behaviour we are checking, remaining duration of a certain attachment |
+| DURATION | accept id of behaviour we are checking, remaining duration of a certain attachment |
