@@ -47,9 +47,7 @@ __NOTOC__
 ==== [[EquipmentRestrictionModule]]  ====
 ==== [[FontMagicModule]]  ====
 ==== [[ItemPointerModule]]  ====
-==== LevelModule  ====
-* [[LevelModule: Configuring Levels]] 
-* [[LevelModule: Passive Points]] 
+==== [[LevelModule]]  ====
 ==== OffhandModule  ====
 * [[OffhandModule: Spellbooks]] 
 * [[OffhandModule: Totems]] 
