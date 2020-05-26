@@ -7,12 +7,11 @@ A trigger refers to a certain happening that matches out requirements for it, wh
 
 | | | | | |
 |-|-|-|-|-|
-| [[Trigger: Command]] | [[Trigger: Move]] | [[Trigger: Take Damage]] | [[Trigger: Deal Damage]] | [[Trigger: Signal]] |
-| [[Trigger: Timer Sync]] | [[Trigger: Timer Async]] | [[Trigger: Death]] | [[Trigger: Kill]] | [[Trigger: Interact]] |
-| [[Trigger: Cast]] | [[Trigger: Trap]] | [[Trigger: Totem]] | [[Trigger: Shoot]] | [[Trigger: Arrow Hit]] |
-| [[Trigger: Arrow Forked]] | [[Trigger: Arrow Chained]] | [[Trigger: Arrow Pierced]] | [[Trigger: Sprint]] | [[Trigger: Crouch]] |
-| [[Trigger: Dummy]] | [[Trigger: Flag]] | [[Trigger: Summoned]] | [[Trigger: Consumable]] | [[Trigger: Behaviour]] |
-
+| [[Command]] | [[Move]] | [[Take Damage]] | [[Deal Damage]] | [[Signal]] |
+| [[Timer Sync]] | [[Timer Async]] | [[Death]] | [[Kill]] | [[Interact]] |
+| [[Cast]] | [[Trap]] | [[Totem]] | [[Shoot]] | [[Arrow Hit]] |
+| [[Arrow Forked]] | [[Arrow Chained]] | [[Arrow Pierced]] | [[Sprint]] | [[Crouch]] |
+| [[Dummy]] | [[Flag]] | [[Summoned]] | [[Consumable]] | [[Behaviour]] |
 
 # Configuration of Triggers
 
