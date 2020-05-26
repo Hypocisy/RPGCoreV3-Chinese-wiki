@@ -3,6 +3,10 @@ Module: DamageModule
 
 Beneath you can find a listing of hardcoded systems, you may avoid putting them into use by not permitting your players to invest into them.
 
+## Technical Behaviour
+
+There are a number of technical limitations when using the damage module, such as that damage always has to belong to a type and an element. There is a number of hardcoded types, which you can find in [[CraftDamageModule]], but weapons can be made to add extra types and skills have great freedom aswell.
+
 ## Conversion Behaviour
 
 Conversion transforms damage from element to each other, allowing you to benefit from both of the elements at once. This refers both to the defensive and offensive modifiers. 
