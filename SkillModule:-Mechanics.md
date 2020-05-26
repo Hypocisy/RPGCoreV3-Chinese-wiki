@@ -13,7 +13,7 @@ Mechanics refer to something that will be applied at the given target. This rang
 | [[potion]] | [[ignite]] | [[flag-mechanic]] | [[memorize]] | [[resource]] |
 | [[velocity]] | [[abort]] | [[leap]] | [[teleport]] | [[trail]] |
 | [[upwind]] | [[modify-support]] | [[event-data-mechanic]] | [[banner]] | [[modify-minion]] |
-| [[summon-minion]] | [[taunt]] | [[pathfinder]] | [[aitarget]] | [[chatting]] |
+| [[summon]] | [[taunt]] | [[pathfinder]] | [[aitarget]] | [[chatting]] |
 | [[soul-mechanic]] | | | | |
 
 
