@@ -25,6 +25,8 @@ The special tags "TOME", "TRAP", "TOTEM", "TRIGGERED" are automatically added ba
 
 ## A listing of all variables
 
+Variables are specific values, make sure to respect upper-lower case. Some variables are only available if it makes sense for them to be available. For example, checking the OVERKILL_AMOUNT while running a timer trigger will not make any sense. 
+
 | Variable | Purpose |
 |-|-|
 | LVL/LEVEL | Level of the attached skill, 0 if undefined. The level is based on the skill which granted us the skill. |
@@ -32,7 +34,6 @@ The special tags "TOME", "TRAP", "TOTEM", "TRIGGERED" are automatically added ba
 | ATTACHMENT_CURRENT_STACKS| If defined, current stack count |
 | ATTACHMENT_MAX_STACKS| If defined, maximum number of stacks this attached behaviour can have |
 | ATTACHMENT_MAX_DURATION| If defined, duration which this attached behaviour refreshes to |
-| BOW_FORCE | If defined, bow tension used when releasing a trap |
 | LOCAL_POS | If defined, the index of the skill within its contained skill link |
 | GLOBAL_POS | If defined, the index of the skill within the item | 
 | SELF_<...> | Remaining Health, Shield, Mana or Attribute of behaviour owner |
@@ -52,6 +53,8 @@ The special tags "TOME", "TRAP", "TOTEM", "TRIGGERED" are automatically added ba
 | CHANNELING_INTERVAL | how often was the channeling procced, only with channeling triggers |
 
 ## Default Functions
+
+Functions relative to the asking party.
 
 | Function | Purpose |
 |-|-|
