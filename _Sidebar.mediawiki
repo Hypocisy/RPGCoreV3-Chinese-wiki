@@ -1,8 +1,9 @@
 __NOTOC__
 
 ==== General ====
-* [[Terminology]]
+* [[Advanced Terminology]]
 * [[Advanced Configuration]]
+* [[Using Commands]]
 
 ==== EntityModule ====  
 * [[EntityModule: Creatures]] 
