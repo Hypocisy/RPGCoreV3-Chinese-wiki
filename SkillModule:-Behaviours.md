@@ -11,13 +11,13 @@ The "BLOOD_MAGIC" skill attribute or "GLOBAL_BLOOD_MAGIC" entity attribute when 
 
 | Key & Aliases | Type | Description | Required | Variable |
 | - | - | - | - | - |
-| id | string | The unique id of the attachment, if id is occupied will increment charge handler | no | no |
-| name | string | The public facing name of the attachment. | no | no |
-| primary | boolean | usable if we are the first skill in a link | no | no |
-| secondary | boolean | usable if we are not the first skill in a link | no | no |
-| reservation-tag | string | a unique reservation tag, cannot have two skills using the same tag | no | no |
-| trigger | section or string | trigger configuration, usually a string - section if complex | yes | no |
-| actions | list | actions which will be executed when the trigger notifies us | yes | yes |
+| id | string | the unique id of the attachment | no | no |
+| name | string | currently used for status effect icons | no | no |
+| primary | boolean | acquired when first in link | no | no |
+| secondary | boolean | acquired when not first in link | no | no |
+| reservation-tag | string | require tag to be reserved for using | no | no |
+| trigger | section or string | the trigger that has to be procced | yes | no |
+| actions | list | mechanics applied to targets | yes | yes |
 | resource.flat | integer | flat cost of health, shield or mana | no | yes |
 | resource.percent | percent | fractional cost of health, shield or mana | no | yes |
 | resource.reservation | percent | percentage of health or mana to reserve | no | yes |
