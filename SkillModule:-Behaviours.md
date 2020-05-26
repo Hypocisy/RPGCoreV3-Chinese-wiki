@@ -7,7 +7,7 @@ Check the configuration examples and read the documentations for it.
 
 # Configuration of Behaviours
 
-The "BLOOD_MAGIC" skill attribute or "GLOBAL_BLOOD_MAGIC" entity attribute when evaluating to greater-equal 1 will transform all mana consumption to health consumption - beware that unlike mana, health reservation cannot fully reserve health (at least 1 point of health has to be unreserved.)
+The "BLOOD_MAGIC" skill attribute or "GLOBAL_BLOOD_MAGIC" entity attribute when evaluating to greater-equal 1 will transform mana consumption to health consumption. Beware that unlike mana, health reservation cannot fully reserve health (at least 1 point of health has to be unreserved.)
 
 | Key & Aliases | Type | Description | Required | Variable |
 | - | - | - | - | - |
