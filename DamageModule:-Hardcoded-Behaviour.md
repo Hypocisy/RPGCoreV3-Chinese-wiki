@@ -11,8 +11,8 @@ This applies to **every** modifier for damage, partial conversion is possible. I
 
 | Entity Attribute | Combat Attribute | Description |
 |-|-|-|
-| DEAL_%A%_AS_%B% | DEAL_%A%_AS_%B% | Attacker converts damage dealt from A to B |
-| TAKE_%A%_AS_%B% | TAKE_%A%_AS_%B% | Defender converts damage taken from A to B |
+| DEAL\_%A%\_AS\_%B% | DEAL\_%A%\_AS\_%B% | Attacker converts damage dealt from A to B |
+| TAKE\_%A%\_AS\_%B% | TAKE\_%A%\_AS\_%B% | Defender converts damage taken from A to B |
 
 ## Leeching Behaviour
 
@@ -20,10 +20,10 @@ Leeching absorbs a part of the damage to recover over a certain time period, whi
 
 | Entity Attribute | Combat Attribute | Description |
 |-|-|-|
-| MAXIMUM_LEECH_AS_%RESOURCE% | / | Maximum percentage per second recovered |
-| OVERLEECH_DURATION_%RESOURCE% | / | Ticks to keep leeching while on full resource |
-| LEECH_AS_%RESOURCE%_%ELEMENT% | LEECH_AS_%RESOURCE%_%ELEMENT% | Fraction of damage leeched over time |
-| LEECH_AS_%RESOURCE%_%ELEMENT% | LEECH_AS_%RESOURCE%_%ELEMENT% | Fraction of damage leeched instantly |
+| MAXIMUM\_LEECH_AS\_%RESOURCE% | / | Maximum percentage per second recovered |
+| OVERLEECH\_DURATION\_%RESOURCE% | / | Ticks to keep leeching while on full resource |
+| LEECH\_AS\_%RESOURCE%\_%ELEMENT% | LEECH\_AS\_%RESOURCE%\_%ELEMENT% | Fraction of damage leeched over time |
+| LEECH\_AS\_%RESOURCE%\_%ELEMENT% | LEECH\_AS\_%RESOURCE%\_%ELEMENT% | Fraction of damage leeched instantly |
 
 ## Avoidance Behaviour
 
@@ -31,8 +31,8 @@ Avoidance allows you to block or dodge damage, there is no internal difference b
 
 | Entity Attribute | Combat Attribute | Description |
 |-|-|-|
-| DODGE_CHANCE | DODGE_CHANCE | chance to dodge damage and set it to 0 |
-| BLOCK_CHANCE | BLOCK_CHANCE | chance to block damage and set it to 0 |
+| DODGE\_CHANCE | DODGE\_CHANCE | chance to dodge damage and set it to 0 |
+| BLOCK\_CHANCE | BLOCK\_CHANCE | chance to block damage and set it to 0 |
 
 ## Culling Behaviour
 
@@ -40,8 +40,8 @@ Culling refers to instant death once an enemy falls beneath the culling threshol
 
 | Entity Attribute | Combat Attribute | Description |
 |-|-|-|
-| CULLING_CHANCE | CULLING_CHANCE | chance to inflict culling |
-| CULLING_THRESHOLD | CULLING_THRESHOLD | cull enemies below this percentage |
+| CULLING\_CHANCE | CULLING\_CHANCE | chance to inflict culling |
+| CULLING\_THRESHOLD | CULLING\_THRESHOLD | cull enemies below this percentage |
 
 ## Critical Behaviour
 
@@ -49,6 +49,6 @@ Crit damage is meant to apply a multiplier to the final resulting damage. Crit d
 
 | Entity Attribute | Combat Attribute | Description |
 |-|-|-|
-| CRIT_CHANCE_%TYPE% | CRIT_CHANCE | chance to inflict a critical blow |
-| CRIT_DAMAGE_%TYPE% | CRIT_DAMAGE | damage multiplier gained with crits |
-| CRIT_DEFENSE_%TYPE% | CRIT_DEFENSE | reduction of extra damage taken from crits |
+| CRIT\_CHANCE\_%TYPE% | CRIT\_CHANCE | chance to inflict a critical blow |
+| CRIT\_DAMAGE\_%TYPE% | CRIT\_DAMAGE | damage multiplier gained with crits |
+| CRIT\_DEFENSE\_%TYPE% | CRIT\_DEFENSE | reduction of extra damage taken from crits |
