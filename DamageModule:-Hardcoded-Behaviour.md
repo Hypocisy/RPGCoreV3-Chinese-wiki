@@ -1,6 +1,8 @@
 Directory: "./../DamageModule.yml"  
 Module: DamageModule
 
+Beneath you can find a listing of hardcoded systems, you may avoid putting them into use by not permitting your players to invest into them.
+
 ## Conversion Behaviour
 
 Conversion transforms damage from element to each other, allowing you to benefit from both of the elements at once. This refers both to the defensive and offensive modifiers. 
