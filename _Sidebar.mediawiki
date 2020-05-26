@@ -50,7 +50,6 @@ __NOTOC__
 ==== LevelModule  ====
 * [[LevelModule: Configuring Levels]] 
 * [[LevelModule: Passive Points]] 
-* [[LevelModule: Examples]]
 ==== OffhandModule  ====
 * [[OffhandModule: Spellbooks]] 
 * [[OffhandModule: Totems]] 
