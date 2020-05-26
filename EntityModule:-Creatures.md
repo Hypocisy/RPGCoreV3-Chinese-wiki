@@ -1,7 +1,9 @@
 Directory: "./../entitymodule/creatures"  
 Module: EntityModule
 
-Only monsters that were created by rpgcore will be affected by it, do not utilize a third party mob plugin.
+Only monsters that were created by rpgcore will be affected by it, do not utilize a third party mob plugin. 
+
+RPGCore mobs also are affected by potion effects. Invisibility will cause them to lose track of their target and blindness may cause them to fail with their auto attacks.
 
 # Configuration
 
