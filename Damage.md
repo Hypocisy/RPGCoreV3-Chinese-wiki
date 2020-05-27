@@ -2,7 +2,7 @@ The modifiers listed in the "setup" section ("ADD ... TO ...") can resolve varia
 
 Should the immediate trigger be a damage trigger and the damage inflicted be tagged as "NOCHILD" we will cancel. Anything that may create a feedback loop should be designed in a manner where it is blocked by a cooldown. 
 
-You might want to check the [[DamageModule: Hardcoded Behaviour]], [[CraftDamageModule]] and [[DamageModule: Customizing Damage]] articles for further details.
+You might want to check the [[DamageModule: Hardcoded Behaviour]] and [[CraftDamageModule]] and [[DamageModule: Customizing Damage]] articles for further details.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
