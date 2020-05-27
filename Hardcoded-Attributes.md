@@ -13,8 +13,8 @@ You will find the attributes which have **their full name fixed** listed here.
 | IMPLICITEXPANSION | Entity | Multiplier to effects of implicits | 1.0 |
 | GLOBAL_BLOOD_MAGIC | Entity | When greater-equal 1, all skills have blood magic | 0.0 |
 | LOCAL_BLOOD_MAGIC | Skill | When greater-equal 1, all linked skills have blood magic | 0.0 |
-| ATTACK_SPEED | Entity | Applies a **multiplier** on [entity movement speed](https://minecraft.gamepedia.com/Attribute) | 0.0 |
-| MOVEMENT_SPEED | Entity | Applies a **multiplier** on [player attack speed](https://minecraft.gamepedia.com/Attribute) | 0.0 |
+| ATTACK_SPEED | Entity | Applies a **multiplier** on [movement speed](https://minecraft.gamepedia.com/Attribute) | 0.0 |
+| MOVEMENT_SPEED | Entity | Applies a **multiplier** on [attack speed](https://minecraft.gamepedia.com/Attribute) | 0.0 |
 | KNOCKBACK_TAKE | Entity | Currently not used | 1.0 |
 | KNOCKBACK_GIVE | Entity | Currently not used | 1.0 |
 | SOUL_DURATION | Entity | Ticks until souls start decaying | 600 |
