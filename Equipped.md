@@ -1,6 +1,6 @@
 Check if the given equipment slot has an item with the given item id
 
-By default RPGCore has the following equipment slots: MAIN_HAND, OFF_HAND, HELMET, CHEST, LEGS, BOOTS but the [[AdvancedEquipmentModule]] may add some more.
+By default RPGCore has the following equipment slots: MAIN_HAND, OFF_HAND, HELMET, CHEST, LEGS, BOOTS but the [[CraftAdvancedEquipmentModule]] may add some more.
 
 Using item slot "AUTO" will instead pick the slot the item originates from, if no item is found it evaluates to true.
 
