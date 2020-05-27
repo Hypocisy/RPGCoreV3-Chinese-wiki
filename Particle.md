@@ -63,7 +63,7 @@ Draw a line of particles
 
 ## Cone Particle
 
-Draw a cone of particles
+Draw a cone of particles. A cone with a 360 angle and a minimum radius of 0 will be a disc.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
