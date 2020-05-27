@@ -1,7 +1,7 @@
 Directory: "./../CraftApplyMaterialOnItemModule.yml"  
 Module: CraftApplyMaterialOnItemModule
 
-This module permits you to left click on an item while holding a certain [[ItemModule: Material]] to modify the said item.
+This module permits you to left click on an item while holding a certain [[ItemModule: Materials]] to modify the said item.
 
 # How to create additional equipment slots
 
