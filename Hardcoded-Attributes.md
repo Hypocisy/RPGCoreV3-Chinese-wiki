@@ -11,8 +11,8 @@ You will find the attributes which have **their full name fixed** listed here.
 | AFFIXEXPANSION | Entity | Multiplier to effects of affixes | 1.0 |
 | SOCKETEXPANSION | Entity | Multiplier to effects of sockets | 1.0 |
 | IMPLICITEXPANSION | Entity | Multiplier to effects of implicits | 1.0 |
-| GLOBAL_BLOOD_MAGIC | Entity | When greater-equal 1, all skills have blood magic | 0.0 |
-| LOCAL_BLOOD_MAGIC | Skill | When greater-equal 1, all linked skills have blood magic | 0.0 |
+| GLOBAL_BLOOD_MAGIC | Entity | use bloodmagic for all skills | 0.0 |
+| LOCAL_BLOOD_MAGIC | Skill | use bloodmagic for linked skills | 0.0 |
 | ATTACK_SPEED | Entity | Applies a **modifier** on [movement speed](https://minecraft.gamepedia.com/Attribute) | 0.0 |
 | MOVEMENT_SPEED | Entity | Applies a **modifier** on [attack speed](https://minecraft.gamepedia.com/Attribute) | 0.0 |
 | KNOCKBACK_TAKE | Entity | Currently not used | 1.0 |
