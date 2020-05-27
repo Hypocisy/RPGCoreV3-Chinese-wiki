@@ -1,4 +1,4 @@
-Memorizes the targets passed to the mechanic, use with [[Remember]]
+Memorizes the targets passed to the mechanic, use with [[Remember]] to recall later.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
