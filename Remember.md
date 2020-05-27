@@ -1,4 +1,4 @@
-Recall a target that was memorized by the [[Memorize]] mechanic, will search Locally, Within Link and finally Globally.
+Recall a target that was memorized by the [[Memorize]] mechanic or [[Memorize Targetter]], will search Locally, Within Link and finally Globally.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
