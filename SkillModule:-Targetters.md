@@ -7,10 +7,10 @@ Targetters re-map the original input from the trigger to a specific target. The 
 
 | | | | | |
 |-|-|-|-|-|
-| [[Default]] | [[Flatten]] | [[Invert]] | [[Facing]] | [[Layered]] |
+| [[Default Target]] | [[Flatten]] | [[Invert]] | [[Facing]] | [[Layered]] |
 | [[Nearby]] | [[Offset]] | [[Self]] | [[Grounded]] | [[Looking]] |
-| [[Distinct]] | [[Limited]] | [[Remember]] | [[Forward]] | [[Eye Height]] |
-| [[Memorized]] | [[Parent]] | [[Random]] | [[Signalled]] | [[Exact]] |
+| [[Unique Targets]] | [[Limited]] | [[Remember Saved]] | [[Forward]] | [[Eye Height]] |
+| [[Memorized]] | [[Parent]] | [[Random Choice]] | [[Signalled]] | [[Exact]] |
 | [[Players]] | [[Summoner]] | [[Direction]] | [[Rotated]] | |
 
 # Configuration of Targetters
