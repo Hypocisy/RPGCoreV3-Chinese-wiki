@@ -8,7 +8,7 @@ Conditions are used to narrow down targets, usually whenever you can input a con
 | | | | | |
 |-|-|-|-|-|
 | [[angle]] | [[random]] | [[friendly]] | [[hostile]] | [[material]] |
-| [[solid]] | [[random-variable]] | [[grounded]] | [[sprinting]] | [[submerged]] |
+| [[solid]] | [[Random Picked]] | [[grounded]] | [[sprinting]] | [[submerged]] |
 | [[falling]] | [[burning]] | [[remaining]] | [[behind]] | [[flag-condition]] |
 | [[blocking]] | [[attached]] | [[variable]] | [[unobstructed]] | [[potion]] |
 | [[crouching]] | [[linked-slot]] | [[equipped]] | [[event-data]] | [[entity-type]] |
