@@ -38,7 +38,6 @@ __NOTOC__
 * [[SkillModule: Effect Cluster]] 
 * [[SkillModule: Levelling]] 
 * [[SkillModule: Variables]] 
-* [[SkillModule: Examples]]
 ==== [[AttributeSuperWriterModule]]  ====
 ==== [[CraftAdvancedEquipmentModule]]  ====
 ==== [[CraftApplyMaterialOnItemModule]]  ====
