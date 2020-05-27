@@ -3,7 +3,7 @@ Module: SkillModule
 
 Mechanics refer to something that will be applied at the given target. This ranges from dealing damage to spawning particles and everything of similar nature. A lot of mechanics can interact with variables in one way or another, allowing for advanced logic behind them.
 
-# Available Conditions
+# Available Mechanics
 
 | | | | | |
 |-|-|-|-|-|
