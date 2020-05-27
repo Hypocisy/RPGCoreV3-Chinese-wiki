@@ -1,4 +1,4 @@
-A wrapper allowing you to execute multiple mechanics at once. **You cannot use the string form to load an action list** and need to define an extended section for it. With the exception of a few weird cases, it should not be necessary to use this mechanic.
+A wrapper allowing you to execute multiple mechanics at once. **You cannot use the string form for this,** you need to define an extended section! With the exception of a rare edge case, it should not be necessary to use this mechanic.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
