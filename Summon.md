@@ -1,4 +1,4 @@
-Summons a minion for the caster, should they be able to still summon one. When used a string infix notation can only accept a specific entity type that was defined by the entity module (Use exact ID)
+Summons a minion for the caster, should they be able to still summon one. Note that the limitation of summoning types **and** the limitation of this mechanic is applied.
 
 You may want to check [[EntityModule: Creatures]] for further details on creatures, the summoned creature will be inheriting the hostile and friendly checks of the parent.
 
