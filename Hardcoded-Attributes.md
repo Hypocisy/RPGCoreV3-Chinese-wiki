@@ -21,10 +21,14 @@ You will find the attributes which have **their full name fixed** listed here.
 | SOUL_AMOUNT | Entity | Maximum souls on an entity | 20 | Internal |
 | SOUL_GIVE | Entity | Chance to give away a soul on kill | 0.1 | Internal |
 | SOUL_TAKE | Entity | Chance to gain a soul on kill | 0.0 | Internal |
-| DODGE_CHANCE | Entity, Combat | Chance to neutralize damage by dodge | 0.0 | [[DamageModule]] |
-| BLOCK_CHANCE | Entity, Combat | Chance to neturalize damage by block | 0.0 | [[DamageModule]] |
-| CULLING_CHANCE | Entity, Combat | Chance to instant kill target at low life | 0.0 | [[DamageModule]] |
-| CULLING_THRESHOLD | Entity, Combat | Threshold to consider on low life | 0.1 | [[DamageModule]] |
+| DODGE_CHANCE | Entity | Chance to neutralize damage by dodge | 0.0 | [[DamageModule]] |
+| BLOCK_CHANCE | Entity | Chance to neturalize damage by block | 0.0 | [[DamageModule]] |
+| CULLING_CHANCE | Entity | Chance to instant kill target at low life | 0.0 | [[DamageModule]] |
+| CULLING_THRESHOLD | Entity | Threshold to consider on low life | 0.1 | [[DamageModule]] |
+| DODGE_CHANCE | Combat | Chance to neutralize damage by dodge | 0.0 | [[DamageModule]] |
+| BLOCK_CHANCE | Combat | Chance to neturalize damage by block | 0.0 | [[DamageModule]] |
+| CULLING_CHANCE | Combat | Chance to instant kill target at low life | 0.0 | [[DamageModule]] |
+| CULLING_THRESHOLD | Combat | Threshold to consider on low life | 0.1 | [[DamageModule]] |
 | CRIT_CHANCE | Combat | Chance for damage to be critical | 0.0 | [[DamageModule]] |
 | CRIT_DAMAGE | Combat | Extra damage multiplier with crits | 0.0 | [[DamageModule]] |
 | CRIT_DEFENSE | Combat | Less damage taken from crits | 0.0 | [[DamageModule]] |
@@ -59,10 +63,14 @@ You will find the attributes which have **one part of their name fixed** listed 
 | #_REGEN_EFFICIENCY | Entity | Health, Shield and Mana regeneration multiplier | 0 | Internal |
 | OVERLEECH_DURATION_# | Entity | Health, Shield and Mana leech retaining when saturated | 0 | Internal |
 | MAXIMUM_LEECH_AS_# | Entity | Health, Shield and Mana maximum leech per second | 0.2 | Internal |
-| DEAL_#_AS_# | Entity, Combat | Attacker converts from element to element | 0.0 | [[DamageModule]] |
-| TAKE_#_AS_# | Entity, Combat | Defender converts from element to element | 0.0 | [[DamageModule]] |
-| LEECH_AS_#_# | Entity, Combat | Resource leeched from element | 0.0 | [[DamageModule]] |
-| INSTANT_LEECH_AS_#_# | Entity, Combat | Instant resource leeched from element | 0.0 | [[DamageModule]] |
+| DEAL_#_AS_# | Entity | Attacker converts from element to element | 0.0 | [[DamageModule]] |
+| TAKE_#_AS_# | Entity | Defender converts from element to element | 0.0 | [[DamageModule]] |
+| LEECH_AS_#_# | Entity | Resource leeched from element | 0.0 | [[DamageModule]] |
+| INSTANT_LEECH_AS_#_# | Entity | Instant resource leeched from element | 0.0 | [[DamageModule]] |
+| DEAL_#_AS_# | Combat | Attacker converts from element to element | 0.0 | [[DamageModule]] |
+| TAKE_#_AS_# | Combat | Defender converts from element to element | 0.0 | [[DamageModule]] |
+| LEECH_AS_#_# | Combat | Resource leeched from element | 0.0 | [[DamageModule]] |
+| INSTANT_LEECH_AS_#_# | Combat | Instant resource leeched from element | 0.0 | [[DamageModule]] |
 | CRIT_CHANCE_# | Entity | Chance for type damage to be critical | 0.0 | [[DamageModule]] |
 | CRIT_DAMAGE_# | Entity | Extra damage multiplier with type crits | 0.0 | [[DamageModule]] |
 | CRIT_DEFENSE_# | Entity | Less damage taken from type  crits | 0.0 | [[DamageModule]] |
