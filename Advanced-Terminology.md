@@ -1,4 +1,4 @@
-Beneath is a listing of advanced terminology you may discover. Should you find a **specific** word or sentence that you are unable to understand, you may contact me and I will add it to this page.
+Beneath is a listing of unfamiliar words that you may discover in the wiki or the plugin. Feel free to report certain words that you cannot understand so I can add them to the page below.
 
 ***
 
