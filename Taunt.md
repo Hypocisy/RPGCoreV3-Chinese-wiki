@@ -1,4 +1,4 @@
-Taunts a creature to generate aggro, if a creature has too much aggro on someone taunting it wont do anything.
+Taunts a creature to generate aggro without dealing damage
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
