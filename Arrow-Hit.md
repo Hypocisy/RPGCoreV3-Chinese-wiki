@@ -1,4 +1,4 @@
-Triggers responsible for natural minecraft projectiles.
+Triggers responsible for natural minecraft projectiles, you also can use the [[Take Damage]] or [[Deal Damage]] trigger instead, checking for projectile damage types. This one is specific to identify the advanced mechanics.
 
 # Your arrow hit the target
 
