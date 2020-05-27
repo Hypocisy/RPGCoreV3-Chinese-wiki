@@ -1,4 +1,4 @@
-Triggered when an arrow is fired from a bow, this is a part of the Archery Module.
+Triggered when an arrow is fired from a bow.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
