@@ -7,12 +7,12 @@ Conditions are used to narrow down targets, usually whenever you can input a con
 
 | | | | | |
 |-|-|-|-|-|
-| [[angle]] | [[random]] | [[friendly]] | [[hostile]] | [[material]] |
-| [[solid]] | [[Random Picked]] | [[grounded]] | [[sprinting]] | [[submerged]] |
-| [[falling]] | [[burning]] | [[remaining]] | [[behind]] | [[Check Flag]] |
-| [[blocking]] | [[attached]] | [[variable]] | [[unobstructed]] | [[Has Potion]] |
-| [[crouching]] | [[linked-slot]] | [[equipped]] | [[Check Data]] | [[entity-type]] |
-| [[soul-condition]] | [[worldguard]] | [[time]] | [[biome]] | [[rpgcore-type]] |
+| [[Angle]] | [[Random]] | [[Friendly]] | [[Hostile]] | [[Material]] |
+| [[Solid]] | [[Random Picked]] | [[Grounded]] | [[Sprinting]] | [[Submerged]] |
+| [[Falling]] | [[Burning]] | [[Remaining]] | [[Behind]] | [[Check Flag]] |
+| [[Blocking]] | [[Attached]] | [[Variable]] | [[Unobstructed]] | [[Has Potion]] |
+| [[Crouching]] | [[Linked Slot]] | [[Equipped]] | [[Check Data]] | [[Entity Type]] |
+| [[Soul Condition]] | [[WG Condition]] | [[Time]] | [[Biome]] | [[RPGCore Type]] |
 
 # Configuration of Conditions
 
