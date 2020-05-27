@@ -56,13 +56,13 @@ You will find the attributes which have **one part of their name fixed** listed 
 | SKILL_#:# | Entity | Tagged modifiers for an skill variable | 0 |
 | GLOBAL_SKILL_LEVEL_# | Entity | Add to level of all skills, based on tag | 0 |
 | LOCAL_SKILL_LEVEL_# | Skill | Add to level of linked skills, based on tag | 0 |
-| #_AMOUNT | Entity | Health, Shield and Mana amount | 0 |
-| #_FLAT | Entity | Health, Shield and Mana flat regeneration | 0 |
-| #_PERCENT | Entity | Health, Shield and Mana percent regeneration | 0 |
-| #_RECOVERY | Entity | Health, Shield and Mana out of combat percent regeneration | 0 |
-| #_REGEN_EFFICIENCY | Entity | Health, Shield and Mana regeneration multiplier | 0 |
-| OVERLEECH_DURATION_# | Entity | Health, Shield and Mana leech retaining when saturated | 0 |
-| MAXIMUM_LEECH_AS_# | Entity | Health, Shield and Mana maximum leech per second | 0.2 |
+| #_AMOUNT | Entity | amount | 0 |
+| #_FLAT | Entity | flat regeneration | 0 |
+| #_PERCENT | Entity | percent regeneration | 0 |
+| #_RECOVERY | Entity | out of combat percent regeneration | 0 |
+| #_REGEN_EFFICIENCY | Entity | regeneration multiplier | 0 |
+| OVERLEECH_DURATION_# | Entity | leech retaining when saturated | 0 |
+| MAXIMUM_LEECH_AS_# | Entity | maximum leech per second | 0.2 |
 | DEAL_#_AS_# | Entity | Attacker converts from element to element | 0.0 |
 | TAKE_#_AS_# | Entity | Defender converts from element to element | 0.0 |
 | LEECH_AS_#_# | Entity | Resource leeched from element | 0.0 |
