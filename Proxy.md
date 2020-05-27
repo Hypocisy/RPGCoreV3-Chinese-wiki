@@ -48,7 +48,7 @@ Fires following signals: PROXY_COLLIDED, PROXY_TICKED, PROXY_DESTROYED
 
 ## An example of how to use a proxy
 
-Beneath is the implementation of a fireball skill, which shows the simplest way of how to implement a proxy.
+Beneath is the implementation of a skill using a proxy, beware that this is only meant to give you an idea about how to structure such skills.
 
 ```yml
 FIREBALL:
@@ -57,10 +57,10 @@ FIREBALL:
   behaviours:
     CAST_VIA_TOME:
       primary: true
-      mana: {flat: 10}
-      trigger: cast{casttime=60;cooldown-id=Fireball;channel-cooldown=60;instruction=RRR;channel=Fireball}
+      trigger: dummy{}
       actions:
-      - "proxy{interval=5;proxy=PROJECTILE;speed=10;total=1;signal-prefix=FIREBALL}@target"
+      # Release the proxy as a projectile, signals use the namespace "FIREBALL"
+      - "proxy{proxy=PROJECTILE;speed=10;total=1;signal-prefix=FIREBALL}@target"
     ON_TICK:
       primary: true
       secondary: true
