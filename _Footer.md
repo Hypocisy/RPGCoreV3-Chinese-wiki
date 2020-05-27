@@ -1,4 +1,4 @@
-| | | | |
-|-|-|-|-|
-| [[EntityModule]] | [[ItemModule]] | [[PassiveTreeModule]] | [[SkillModule]] |
-| [[DamageModule]] | [[LevelModule]] | [[OffhandModule]] | |
+| | | | | |
+|-|-|-|-|-|
+| [[EntityModule]] | [[ItemModule]] | [[PassiveTreeModule]] | [[SkillModule]] | [[OffhandModule]] | |
+| [[DamageModule]] | [[LevelModule]] | | | |
