@@ -1,5 +1,7 @@
 Beneath is a listing of advanced terminology you may discover. Should you find a **specific** word or sentence that you are unable to understand, you may contact me and I will add it to this page.
 
+***
+
 **Definition: Linked Skills**  
 Skills that are embedded on an item ('/rc skills') with no gaps inbetween are considered linked.
 
