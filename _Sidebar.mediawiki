@@ -1,6 +1,7 @@
 __NOTOC__
 
 ==== General ====
+* [[Hardcoded Attributes]]
 * [[Advanced Terminology]]
 * [[Advanced Configuration]]
 * [[Questions & Answers]]
