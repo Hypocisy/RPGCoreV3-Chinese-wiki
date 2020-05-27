@@ -1,4 +1,4 @@
-A minecraft lightning bolt will strike the target position, this does **not** discriminate who is present!
+A minecraft lightning bolt will strike the target position, this does **not** discriminate who is present! You may end up striking your allies.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
