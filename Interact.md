@@ -1,4 +1,4 @@
-Called when the entity raises a spigot interact event (Left/right click on air/blocks)
+Called when the entity raises a spigot interact event (Left/right click on air/blocks) This can result in conflicts when interacting with spell casting.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
