@@ -41,6 +41,7 @@ __NOTOC__
 * [[SkillModule: Examples]]
 ==== [[AttributeSuperWriterModule]]  ====
 ==== [[CraftAdvancedEquipmentModule]]  ====
+==== [[CraftApplyMaterialOnItemModule]]  ====
 ==== [[CraftDamageModule]]  ====
 ==== [[CraftDefaultAttributeModule]]  ====
 ==== [[CraftEnemyHealthBarModule]]  ====
