@@ -1,4 +1,4 @@
-Check if the entity has a certain potion effect, this will also search for the attachment "FAKE_POTION_<ID>" 
+Check if the entity has a certain potion effect, this will also search for the attachment "FAKE_POTION_\effectype\>" 
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
