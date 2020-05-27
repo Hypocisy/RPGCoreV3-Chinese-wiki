@@ -7,14 +7,14 @@ Mechanics refer to something that will be applied at the given target. This rang
 
 | | | | | |
 |-|-|-|-|-|
-| [[attachment]] | [[cooldown]] | [[damage]] | [[modify-damage]] | [[blocking-power]] |
-| [[multi-mechanic]] | [[fake-block]] | [[particle]] | [[sound]] | [[thunder]] |
-| [[proxy]] | [[armorstand]] | [[command]] | [[random-pick]] | [[craft-projectile]] |
-| [[potion]] | [[ignite]] | [[flag-mechanic]] | [[memorize]] | [[resource]] |
-| [[velocity]] | [[abort]] | [[leap]] | [[teleport]] | [[trail]] |
-| [[upwind]] | [[modify-support]] | [[event-data-mechanic]] | [[banner]] | [[modify-minion]] |
-| [[summon]] | [[taunt]] | [[pathfinder]] | [[aitarget]] | [[chatting]] |
-| [[soul-mechanic]] | | | | |
+| [[Attachment]] | [[Cooldown]] | [[Damage]] | [[Modify Damage]] | [[Blocking Power]] |
+| [[Multi Mechanic]] | [[Fake Block]] | [[Particle]] | [[Sound]] | [[Strike Thunder]] |
+| [[Proxy (Meteor/Projectile)]] | [[Armorstand]] | [[Use Command]] | [[Random Pick]] | [[Minecraft Projectile]] |
+| [[Potion]] | [[Ignite]] | [[Update Flag]] | [[Memorize Target]] | [[Modify Resource]] |
+| [[Velocity]] | [[Abort Execution]] | [[Leap]] | [[Teleport]] | [[Trail]] |
+| [[Upwind]] | [[Modify Support]] | [[Modify Data]] | [[Banner]] | [[Modify Minion]] |
+| [[Summon]] | [[Taunt]] | [[Pathfinder]] | [[AI Target]] | [[Chatting]] |
+| [[Modify Soul]] | | | | |
 
 
 # Configuration of Mechanics
