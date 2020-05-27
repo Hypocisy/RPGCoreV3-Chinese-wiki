@@ -1,4 +1,4 @@
-Modifies a minion that has just been spawned, use with the [[Summoned]] Trigger only.
+Modifies a minion that has just been spawned, use with the [[Summoned]] Trigger only. The effects of this mechanic are permanent, you do not need to call it multiple times.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
