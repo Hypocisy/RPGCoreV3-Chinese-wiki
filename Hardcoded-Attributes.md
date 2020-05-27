@@ -1,4 +1,4 @@
-Beneath you can find a listing of all hardcoded attributes. Beware that this is **not** the list of all attributes, a massive chunk of attributes will instead be generated based on your server configuration.
+Beneath you can find a listing of all hardcoded attributes. Beware that this is **not** the list of all attributes, a great number of attributes will instead be generated based on your server configuration.
 
 ## Hardcoded Exact Attributes
 
