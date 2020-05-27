@@ -28,6 +28,7 @@ This covers general item configuration, equipment still may need to specify the 
 | skull | skull encoding | https://minecraft-heads.com/ "value" |
 | consumable | skill configuration | a locally defined skill with a consumer trigger |
 | custom-tags.overstacking | integer | will override the stacking limit, still experimental. **Meant to be used for non stackable items.** |
+| custom-attack-speed | decimal | how many attacks per second |
 
 # Configuration (./../itemmodule/items) - Equipment
 
