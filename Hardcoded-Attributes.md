@@ -10,7 +10,7 @@ You will find the attributes which have **their full name fixed** listed here.
 | EXP_GIVE_RATE | Entity | Multiplier to experience given | 1.0 | [[LevelModule]] |
 | AFFIXEXPANSION | Entity | Multiplier to effects of affixes | 1.0 | [[ItemModule]] |
 | SOCKETEXPANSION | Entity | Multiplier to effects of sockets | 1.0 | [[ItemModule]] |
-| UNBOUNDMODIFIERSEXPANSION | Entity | Multiplier to effects of implicits | 1.0 | [[ItemModule]] |
+| IMPLICITEXPANSION | Entity | Multiplier to effects of implicits | 1.0 | [[ItemModule]] |
 | GLOBAL_BLOOD_MAGIC | Entity | When greater-equal 1, all skills have blood magic | 0.0 | [[SkillModule]] |
 | LOCAL_BLOOD_MAGIC | Skill | When greater-equal 1, all linked skills have blood magic | 0.0 | [[SkillModule]] |
 | ATTACK_SPEED | Entity | Applies a **multiplier** on [entity movement speed](https://minecraft.gamepedia.com/Attribute) | 0.0 | Internal |
@@ -66,4 +66,4 @@ You will find the attributes which have **one part of their name fixed** listed 
 | CRIT_CHANCE_# | Entity | Chance for type damage to be critical | 0.0 | [[DamageModule]] |
 | CRIT_DAMAGE_# | Entity | Extra damage multiplier with type crits | 0.0 | [[DamageModule]] |
 | CRIT_DEFENSE_# | Entity | Less damage taken from type  crits | 0.0 | [[DamageModule]] |
-| 
+
