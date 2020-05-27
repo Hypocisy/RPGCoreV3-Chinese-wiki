@@ -1,5 +1,7 @@
 Called upon completing a 'cast' through a tome, this happens AFTER starting to cast a spell.
 
+Check [[OffhandModule: Spellbooks]] and [[ItemModule: Offhand]]
+
 If among the actions executed by this trigger is a damage mechanic, it will be manually inserted with a "SELF_CAST" damage type. Additionally, all variables will receive a sub type of ":SELF_CAST"
 
 | Key | Type | Description | Defaults | Required | Variable |
