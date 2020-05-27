@@ -1,4 +1,4 @@
-Observe flag state changes
+Observe entity flag state changes, you may want to read more about entity flags in the [[FlagModule]] article
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
