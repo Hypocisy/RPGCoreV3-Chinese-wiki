@@ -9,7 +9,7 @@ Mechanics refer to something that will be applied at the given target. This rang
 |-|-|-|-|-|
 | [[Attachment]] | [[Cooldown]] | [[Damage]] | [[Modify Damage]] | [[Blocking Power]] |
 | [[Multi Mechanic]] | [[Fake Block]] | [[Particle]] | [[Sound]] | [[Strike Thunder]] |
-| [[Proxy (Meteor/Projectile)]] | [[Armorstand]] | [[Use Command]] | [[Random Pick]] | [[Minecraft Projectile]] |
+| [[Proxy]] | [[Armorstand]] | [[Use Command]] | [[Random Pick]] | [[MC Projectile]] |
 | [[Potion]] | [[Ignite]] | [[Update Flag]] | [[Memorize Target]] | [[Modify Resource]] |
 | [[Velocity]] | [[Abort Execution]] | [[Leap]] | [[Teleport]] | [[Trail]] |
 | [[Upwind]] | [[Modify Support]] | [[Modify Data]] | [[Banner]] | [[Modify Minion]] |
