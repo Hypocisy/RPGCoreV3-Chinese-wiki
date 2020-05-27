@@ -16,7 +16,7 @@ You may lead the instruction with an 'S' symbol instead of an 'R', doing so will
 
 ## Channeling with casting
 
-Linked with casting there is the ability to channel, channeling is maintained by holding right click.
+Linked with casting there is the ability to channel, channeling is maintained by holding right click. This is entirely optional to be used.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
