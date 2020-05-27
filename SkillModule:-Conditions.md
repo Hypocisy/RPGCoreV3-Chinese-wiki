@@ -11,7 +11,7 @@ Conditions are used to narrow down targets, usually whenever you can input a con
 | [[solid]] | [[Random Picked]] | [[grounded]] | [[sprinting]] | [[submerged]] |
 | [[falling]] | [[burning]] | [[remaining]] | [[behind]] | [[Check Flag]] |
 | [[blocking]] | [[attached]] | [[variable]] | [[unobstructed]] | [[Has Potion]] |
-| [[crouching]] | [[linked-slot]] | [[equipped]] | [[event-data]] | [[entity-type]] |
+| [[crouching]] | [[linked-slot]] | [[equipped]] | [[Check Data]] | [[entity-type]] |
 | [[soul-condition]] | [[worldguard]] | [[time]] | [[biome]] | [[rpgcore-type]] |
 
 # Configuration of Conditions
