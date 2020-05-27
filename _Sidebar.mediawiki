@@ -3,8 +3,8 @@ __NOTOC__
 ==== General ====
 * [[Hardcoded Attributes]]
 * [[Advanced Terminology]]
-* [[Advanced Configuration]]
 * [[Using Commands]]
+* [Advanced Configuration](https://www.dropbox.com/s/3dp0693j3zwowa3/RPGCore%20Advanced%20Configs%203.7.12.zip?dl=1)
 
 ==== [[EntityModule]] ====  
 * [[EntityModule: Creatures]] 
