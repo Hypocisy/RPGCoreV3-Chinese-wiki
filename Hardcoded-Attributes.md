@@ -32,17 +32,17 @@ You will find the attributes which have **their full name fixed** listed here.
 | CRIT_CHANCE | Combat | Chance for damage to be critical | 0.0 |
 | CRIT_DAMAGE | Combat | Extra damage multiplier with crits | 0.0 |
 | CRIT_DEFENSE | Combat | Less damage taken from crits | 0.0 |
-| ITEM_QUANTITY | Entity | Quantity of items dropped, extra item per 100% | 0 |
-| ITEM_FORTUNE | Entity | Select lower weighted item, extra roll per 100% | 0 |
+| ITEM_QUANTITY | Entity | Quantity of items dropped, | 0 |
+| ITEM_FORTUNE | Entity | Select lower weighted item | 0 |
 | ITEM_SKILL_DROP | Entity | Drop generic skills used by monster | 0 |
 | AGGRO_RANGE | Entity | Range in which mob picks enemies | 8 |
 | AGGRO_RATE | Entity | Aggro multiplier, less then 1.0 = chance to be ignored | 1 |
 | MINION_TYPE_LIMIT | Entity | Types of minions can be summoned at once | 1 |
-| AID_PARENT_ATTACK | Entity | chance to target who is attacked by summoner | 0 |
-| AID-PARENT_DEFEND | Entity | chance to target who is attacking summoner | 0 |
-| MOB_ATTACK_SPEED | Entity | multiplier to rate at which melee attacks happen | 0 |
-| MOB_CAST_SPEED | Entity | multiplier to rate at which spell casts happen | 0 |
-| MOB_SHOOT_SPEED | Entity | multiplier to rate at which shooting bows happen | 0 |
+| AID_PARENT_ATTACK | Entity | attack parent target | 0 |
+| AID-PARENT_DEFEND | Entity | attack parent assaulter| 0 |
+| MOB_ATTACK_SPEED | Entity | melee attack rate | 0 |
+| MOB_CAST_SPEED | Entity | spell casts rate | 0 |
+| MOB_SHOOT_SPEED | Entity | shooting bows rate | 0 |
 
 
 ## Hardcoded Generated Attributes
