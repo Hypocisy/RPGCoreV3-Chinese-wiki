@@ -1,3 +1,4 @@
-| | | | |
-|-|-|-|-|
-| [[EntityModule: Creatures]] | [[EntityModule: Spawners]] | [[EntityModule: Looting]] | [[EntityModule: Attributes]] |
+| | |
+|-|-|
+| [[EntityModule: Creatures]] | [[EntityModule: Spawners]] |
+| [[EntityModule: Looting]] | [[EntityModule: Attributes]] |
