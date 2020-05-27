@@ -1,6 +1,5 @@
-Moves vertically down until hitting a solid block
+Check if the block below is considered solid. If the target is an entity, checks if are considered standing on ground.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
 | type | / | / | grounded | / | / |
-| maximum-distance | decimal | how far we can travel downwards | 10 | no | yes |
