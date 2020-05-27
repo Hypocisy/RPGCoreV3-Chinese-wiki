@@ -9,7 +9,7 @@ Conditions are used to narrow down targets, usually whenever you can input a con
 |-|-|-|-|-|
 | [[angle]] | [[random]] | [[friendly]] | [[hostile]] | [[material]] |
 | [[solid]] | [[Random Picked]] | [[grounded]] | [[sprinting]] | [[submerged]] |
-| [[falling]] | [[burning]] | [[remaining]] | [[behind]] | [[flag-condition]] |
+| [[falling]] | [[burning]] | [[remaining]] | [[behind]] | [[Check Flag]] |
 | [[blocking]] | [[attached]] | [[variable]] | [[unobstructed]] | [[Has Potion]] |
 | [[crouching]] | [[linked-slot]] | [[equipped]] | [[event-data]] | [[entity-type]] |
 | [[soul-condition]] | [[worldguard]] | [[time]] | [[biome]] | [[rpgcore-type]] |
