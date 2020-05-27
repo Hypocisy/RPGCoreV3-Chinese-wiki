@@ -1,4 +1,4 @@
-Check the remaining amount of a resource. If you enable percent it will change from a fraction check to an explicit number check.
+Check the remaining amount of a resource.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
