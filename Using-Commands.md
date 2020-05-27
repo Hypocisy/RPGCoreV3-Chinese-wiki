@@ -5,9 +5,8 @@ You can access all commands through a simple "/rc help", hovering over the comma
 | Command | Description | Permission |
 |---------|-------------|------------|
 | help | Shows an overview of commands accessible to you | |
-| effect | Grant an effect to a player, if persisting it will last until the player is lost. Reasons for that can be something like death or quitting. | rc.admin |
-| random | Opens a chest containing random items, based on RandomChestConfig.yml | rc.admin |
-| passives | Opens the passive tree interface, some socketables can be inserted into the tree | rc.passives |
+| effect | Grant an entity attribute effect | rc.admin |
+| passives | Opens the passive tree interface | rc.passives |
 | reserve | Opens the reservation interface | rc.reservation |
 | jewels | Opens the jewel socketing interface for the held item | rc.socket |
 | skills | Opens the skill socketing interface for the held item | rc.skillview |
@@ -17,6 +16,6 @@ You can access all commands through a simple "/rc help", hovering over the comma
 | exp | Adds experience to the player, optionally scaling it off the level difference | rc.admin | 
 | skill level | override the level of the skill container you are holding | rc.admin |
 | browse | Open the browser for all items on the server | rc.admin |
-| stash | Access to the super stash (Meant for materials only.) | rc.stash |
-| character | See: DefaultCharacterSelectionModule, used to toggle selection on | | 
+| stash | Large quantity storage storage interface | rc.stash |
+| character | Used to toggle the character selection | | 
 | bottleneck | pass a certain bottleneck, levelling up further | rc.admin |
