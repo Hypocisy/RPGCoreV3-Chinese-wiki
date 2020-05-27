@@ -1,8 +1,10 @@
-Called at a regular interval while the totem is active. Note that costs for totems are deduced from the beginning and no additional cost will be deduced while the totem is running the skill. **Beware that it still is the player themselves who cast the skill, just that the original location is the totem location.**
+Called at a regular interval while the totem is active. Note that costs for totems are deduced from the beginning and no additional cost will be deduced while the totem is running the skill.
 
 Check [[OffhandModule: Totems]] and [[ItemModule: Offhand]]
 
 If among the actions executed by this trigger is a damage mechanic, it will be manually inserted with a "TOTEM" damage type. Additionally, all variables will receive a sub type of ":TOTEM"
+
+**Warning: It still is the player themselves who cast the skill, just that the original location is the totem location.**
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
