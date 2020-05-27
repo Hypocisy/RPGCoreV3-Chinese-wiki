@@ -2,5 +2,5 @@ Moves vertically down until hitting a solid block, note that if we are buried be
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
-| type | / | / | grounded | / | / |
+| type | / | / | grounding | / | / |
 | maximum-distance | decimal | how far we can travel downwards | 10 | no | yes |
