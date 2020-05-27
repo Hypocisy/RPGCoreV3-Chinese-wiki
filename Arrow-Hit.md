@@ -1,4 +1,4 @@
-Triggers for being struck by an arrow
+Triggers responsible for natural minecraft projectiles.
 
 # Your arrow hit the target
 
