@@ -54,15 +54,6 @@ Beneath is the implementation of a fireball skill, which shows the simplest way 
 FIREBALL:
   id: FIREBALL
   name: Fireball
-  lore:
-  - "Release a projectile that will inflict fire damage on the
-     enemy that is struck by it. This projectile will explode on the
-     end of its path, dealing 50% more fire damage."
-  - "Spellbook Slot: &cRight-Right-Right"
-  backing-item:
-    custom-model: 48
-    custom-tags:
-      display-binding: SKILL
   behaviours:
     CAST_VIA_TOME:
       primary: true
@@ -76,32 +67,19 @@ FIREBALL:
       secondary: true
       trigger: "signal{channel=FIREBALL:PROXY_TICKED}"
       actions:
-      - "particle{class=SINGLE;particle=FLAME;amount=2}@target"
-      - "particle{class=SINGLE;particle=SPELL_MOB;color=FF0000;amount=2}@target"
-      - "particle{class=SINGLE;particle=LAVA;amount=2;speed=0.013}@target"
+      # stuff to do when the proxy is ticked 
     ON_COLLIDE:
       primary: true
       secondary: true
       secondary: true
       trigger: "signal{channel=FIREBALL:PROXY_COLLIDED}"
       actions:
-      - "particle{class=SPHERE;particle=FLAME;points=24}@target"
-      - "particle{class=SPHERE;particle=SPELL_MOB;color=FF0000;points=24}@target"
-      - "particle{class=SPHERE;particle=LAVA;amount=4;speed=0.013}@target"
-      - "sound{sound=ENTITY_BLAZE_BURN;pitch=1}@clone"
-      - "damage{types=[HIT,PROJECTILE,SPELL];setup=[ADD 10 TO DAMAGE_FIRE]}@AOE_HOSTILE"
+      # stuff to do when the proxy collided with something
     ON_DESTROY:
       primary: true
       secondary: true
       secondary: true
       trigger: "signal{channel=FIREBALL:PROXY_DESTROYED}"
       actions:
-      - "particle{class=SPHERE;particle=FLAME;points=24}@target"
-      - "particle{class=SPHERE;particle=SPELL_MOB;color=FF0000;points=24}@target"
-      - "particle{class=SPHERE;particle=LAVA;amount=4;speed=0.013}@target"
-      - "sound{sound=ENTITY_BLAZE_BURN;pitch=1}@clone"
-      - "sound{sound=ENTITY_GENERIC_EXPLODE;pitch=1}@clone"
-      - "damage{types=[HIT,PROJECTILE,SPELL];setup=[ADD 10 TO DAMAGE_FIRE]}@AOE_HOSTILE"
-      - "velocity{origin=target;pulling=false;x=0.4;y=0.4;z=0.4}@AOE_HOSTILE"
-      - "ignite{duration=160}@AOE_HOSTILE"
+      # stuff to do when the proxy is destroyed
 ```
