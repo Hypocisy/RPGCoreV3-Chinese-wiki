@@ -42,6 +42,7 @@ __NOTOC__
 ==== [[AttributeSuperWriterModule]]  ====
 ==== [[CraftAdvancedEquipmentModule]]  ====
 ==== [[CraftApplyMaterialOnItemModule]]  ====
+==== [[CraftDamageLoggerModule]] ====
 ==== [[CraftDamageModule]]  ====
 ==== [[CraftDefaultAttributeModule]]  ====
 ==== [[CraftEnemyHealthBarModule]]  ====
