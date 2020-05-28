@@ -11,7 +11,7 @@ RPGCore mobs also are affected by potion effects. Invisibility will cause them t
 |-|-|-|-|
 | | | | |
 | stationary-self | boolean | will not attempt to chase/stroll | false |
-| stationary-other | boolean | will not be moved by others | false |
+| stationary-other | boolean | will not be moved by anything | false |
 | leash-range | integer | teleport to spawnpoint after exceeding distance | |
 | experience | integer | player experience granted when slain | |
 | skill-experience | integer | skill experience granted when slain | |
