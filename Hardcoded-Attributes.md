@@ -43,7 +43,7 @@ You will find the attributes which have **their full name fixed** listed here.
 | MOB\_ATTACK\_SPEED | Entity | melee attack rate | 0 |
 | MOB\_CAST\_SPEED | Entity | spell casts rate | 0 |
 | MOB\_SHOOT\_SPEED | Entity | shooting bows rate | 0 |
-
+| EXP\_MULTIPLIER | Combat | Resulting exp multiplier | gain*give |
 
 ## Hardcoded Generated Attributes
 
