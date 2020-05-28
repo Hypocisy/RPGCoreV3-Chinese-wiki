@@ -34,4 +34,6 @@ Every level requires a customized configuration. The keying is the level we are 
 
 # Bottlenecks
 
-Bottlenecks are an excellent way to guide and limit progression, a bottleneck can be broken by running the "rc bottleneck <id>" command. While a player is stuck at a bottleneck, they cannot gain any skill experience.
+Bottlenecks are an excellent way to guide and limit progression, a bottleneck can be broken by running the "rc bottleneck \<id\>" command. While a player is stuck at a bottleneck, they cannot gain any skill experience. Good for some sort of an "advancement quest"
+
+You can just take it out of the configurations if you do not want it.
