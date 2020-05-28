@@ -36,8 +36,8 @@ You will find the attributes which have **their full name fixed** listed here.
 | ITEM\_FORTUNE | Entity | Select lower weighted item | 0 |
 | ITEM\_SKILL\_DROP | Entity | Drop generic skills used by monster | 0 |
 | AGGRO\_RANGE | Entity | Range in which mob picks enemies | 8 |
-| AGGRO\_RATE | Entity | Aggro multiplier, less then 1.0 = chance to be ignored | 1 |
-| MINION\_TYPE\_LIMIT | Entity | Types of minions can be summoned at once | 1 |
+| AGGRO\_RATE | Entity | Threat against hostile mobs | 1 |
+| MINION\_TYPE\_LIMIT | Entity | Concurrent summon types | 1 |
 | AID\_PARENT\_ATTACK | Entity | attack parent target | 0 |
 | AID-PARENT\_DEFEND | Entity | attack parent assaulter| 0 |
 | MOB\_ATTACK\_SPEED | Entity | melee attack rate | 0 |
