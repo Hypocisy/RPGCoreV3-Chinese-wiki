@@ -6,8 +6,7 @@ __NOTOC__
 * [[Using Commands]]
 * [[Attribute Syntax]]
 
-=== Advanced Configurations ===
-* [https://www.dropbox.com/s/ko59nq8y9980qpb/rpgcore_3_7_18_minecraft_1_%215_2.zip?dl=1 '''Download Here''']
+=== [https://www.dropbox.com/s/ko59nq8y9980qpb/rpgcore_3_7_18_minecraft_1_%215_2.zip?dl=1 Advanced Configurations] ===
 
 ==== [[EntityModule]] ====  
 * [[EntityModule: Creatures]] 
