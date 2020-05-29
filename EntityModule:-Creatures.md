@@ -23,6 +23,7 @@ RPGCore mobs also are affected by potion effects. Invisibility will cause them t
 | loot-table | [loot table](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule%3A-Looting) | looting configuration of mob | |
 | attributes | attribute list | a list of attribute modifiers applied | |
 | skills | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#skills) | either a custom skill or some linked skills | |
+| spawn-egg | section | an item configuration for an itemized spawning egg | |
 
 # Disguises
 
