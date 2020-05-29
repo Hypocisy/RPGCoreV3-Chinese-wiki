@@ -23,7 +23,7 @@ RPGCore mobs also are affected by potion effects. Invisibility will cause them t
 | loot-table | [loot table](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule%3A-Looting) | looting configuration of mob | |
 | attributes | attribute list | a list of attribute modifiers applied | |
 | skills | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#skills) | either a custom skill or some linked skills | |
-| spawn-egg | section | an item configuration for an itemized spawning egg | |
+| spawn-egg | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#spawnegg) | an item configuration for an itemized spawning egg | |
 
 # Disguises
 
@@ -111,3 +111,13 @@ You can recycle skills from the skill module. These are the same ones as players
     # Link double strike with a Lv10 "Added fire damage with hits" support. 
     - "SUPPORT_FIRE_DAMAGE_WITH_HITS:10"
 ```
+
+## Spawnegg
+
+This is an complete item configuration, see [[ItemModule: Items]] for further details. You can define it as a normal item in the item module too, just make sure to use the correct spawn-egg-id (it is automatically written when a part of the mob.)
+
+| Option | Type | Description | Defaults |
+|-|-|-|-|
+| | | | |
+| custom-tags.spawn-egg-level | integer | level of the spawned mob | |
+| custom-tags.spawn-egg-id | string | the mob id, will be force written | |
