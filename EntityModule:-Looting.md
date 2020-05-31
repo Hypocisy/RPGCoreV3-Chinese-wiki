@@ -86,11 +86,12 @@ Grants players access to refunding points on the passive tree. **Warning!** This
 
 ## Custom Looting: Passive Points
 
-Grants players access to **one** passive point, however should they have the "limit" tag they will not gain it again.
+Grants access to a limited number of passive points, cannot pick up if capped.
 
 | Option | Type | Description | Defaults |
 |-|-|-|-|
 | | | | |
 | type | string | reward type: passive | required |
 | group | string | the passive point type | default | 
-| limit | string | cannot gain again if we got the tag | required |
+| limit | string | the tag scope we are limited from | required |
+| amount | integer | maximum amount of passive points gained | required |
