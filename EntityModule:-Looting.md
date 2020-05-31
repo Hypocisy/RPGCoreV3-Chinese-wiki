@@ -57,6 +57,7 @@ The command variable '{0}' is resolved to the player name, '{1}' is resolved int
 | command | string | command to execute | required |
 | operator | boolean | execute reward as an operator | false |
 | server | boolean | execute reward over console | false |
+| itemized | string | when defined, itemizes the looting result | optional |
 
 ## Custom Looting: Powerup
 
