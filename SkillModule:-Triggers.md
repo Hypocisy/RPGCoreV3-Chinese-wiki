@@ -12,6 +12,7 @@ A trigger refers to a certain happening that matches out requirements for it, wh
 | [[Cast]] | [[Trap]] | [[Totem]] | [[Shoot]] | [[Arrow Hit]] |
 | [[Arrow Forked]] | [[Arrow Chained]] | [[Arrow Pierced]] | [[Sprint]] | [[Crouch]] |
 | [[Dummy]] | [[Flag]] | [[Summoned]] | [[Consumable]] | [[Behaviour]] |
+| [[Looting]] | | | | |
 
 # Configuration of Triggers
 
