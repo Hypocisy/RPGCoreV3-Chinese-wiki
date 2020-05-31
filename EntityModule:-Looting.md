@@ -80,14 +80,3 @@ Grants players access to refunding points on the passive tree. **Warning!** This
 | amount | integer | total of refunding points given | 1 |
 | group | string | the passive point type | default | 
 | limit | integer | maximum amount of refund points | 10 |
-
-## Custom Looting: Passive Points
-
-Grants players access to additional passive points, **this will only grant one passive point!** Do not change the limit on a production server, as it would allow players to gain the points again.
-
-| Option | Type | Description | Defaults |
-|-|-|-|-|
-| | | | |
-| type | string | reward type: passive | required |
-| group | string | the passive point type | default | 
-| limit | string | a tag that uniquely identifies the point type | required |
