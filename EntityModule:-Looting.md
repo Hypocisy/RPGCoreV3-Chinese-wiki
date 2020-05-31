@@ -80,3 +80,14 @@ Grants players access to refunding points on the passive tree. **Warning!** This
 | amount | integer | total of refunding points given | 1 |
 | group | string | the passive point type | default | 
 | limit | integer | maximum amount of refund points | 10 |
+
+## Custom Looting: Passive Points
+
+Grants players access to **one** passive point, however should they have the "limit" tag they will not gain it again.
+
+| Option | Type | Description | Defaults |
+|-|-|-|-|
+| | | | |
+| type | string | reward type: passive | required |
+| group | string | the passive point type | default | 
+| limit | string | cannot gain again if we got the tag | required |
