@@ -61,7 +61,7 @@ The command variable '{0}' is resolved to the player name, '{1}' is resolved int
 
 ## Custom Looting: Powerup
 
-Grants temporary access to a certain behaviour, the logic used is identical to the [[Attachment]] mechanic. Only the behaviours which are tagged as `powerup: true` are granted to the player, **not** the primary behaviours!
+Grants temporary access to a certain behaviour, the logic used is identical to the [[Attachment]] mechanic. The trigger must be 'looting', which is briefly acquired upon picking up the item before being discarded.
 
 | Option | Type | Description | Defaults |
 |-|-|-|-|
