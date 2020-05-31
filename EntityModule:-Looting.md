@@ -44,6 +44,8 @@ Custom loot is written in the `./EntityModule/looting` directory, every file in 
 | level | integer | minimum level for this reward | required |
 | tagging | tag list | list of tags that the reward will subscribe to | required |
 
+***
+
 ## Custom Looting: Command
 
 The command variable '{0}' is resolved to the player name, '{1}' is resolved into the player uuid!
