@@ -11,6 +11,9 @@ RPGCore mobs also are affected by potion effects. Invisibility will cause them t
 |-|-|-|-|
 | | | | |
 | stationary | boolean | will not move from spawnpoint | false |
+| hostile-tags| tag list | entity tags we are hostile towards | |
+| friendly-tags | tag list | entity tags we are friendly towards | |
+| entity-tags | tag list | entity tags for ourself | |
 | leash-range | integer | teleport to spawnpoint after exceeding distance | |
 | experience | integer | player experience granted when slain | |
 | skill-experience | integer | skill experience granted when slain | |
@@ -24,6 +27,16 @@ RPGCore mobs also are affected by potion effects. Invisibility will cause them t
 | attributes | attribute list | a list of attribute modifiers applied | |
 | skills | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#skills) | either a custom skill or some linked skills | |
 | spawn-egg | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#spawnegg) | an item configuration for an itemized spawning egg | |
+
+## Special Note: Tags
+
+When mobs are spawned via spawners they are processed as general hostile entities. So do **not** manually add players to hostility tags, when a mob is considered general hostile they receive the following things:
+
+1. Entity tag: "PLAYER_HOSTILE"
+2. Hostile tag: "PLAYER"
+3. Friendly tag: "PLAYER_HOSTILE"
+
+The friendly tag is **only** received should you have no friendly tags defined manually.
 
 # Disguises
 
