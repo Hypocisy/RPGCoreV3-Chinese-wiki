@@ -39,14 +39,14 @@ __NOTOC__
 * [[SkillModule: Levelling]] 
 * [[SkillModule: Variables]] 
 ==== [[AttributeSuperWriterModule]]  ====
-==== [[CraftAdvancedEquipmentModule]]  ====
-==== [[CraftApplyMaterialOnItemModule]]  ====
-==== [[CraftBreakdownModule]] ====
-==== [[CraftDamageLoggerModule]] ====
-==== [[CraftDamageModule]]  ====
-==== [[CraftDefaultAttributeModule]]  ====
-==== [[CraftEnemyHealthBarModule]]  ====
-==== [[CraftEntityHoloTagModule]]  ====
+==== [AdvancedEquipmentModule]]  ====
+==== [[ApplyMaterialOnItemModule]]  ====
+==== [[BreakdownModule]] ====
+==== [[DamageLoggerModule]] ====
+==== [[DamageModule]]  ====
+==== [[DefaultAttributeModule]]  ====
+==== [[EnemyHealthBarModule]]  ====
+==== [[EntityHoloTagModule]]  ====
 ==== [[CustomAttributeModule]]  ====
 ==== [[DamageModule]] ====
 * [[DamageModule: Hardcoded Behaviour]] 
