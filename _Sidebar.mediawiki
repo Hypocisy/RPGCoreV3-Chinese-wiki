@@ -41,6 +41,7 @@ __NOTOC__
 ==== [[AttributeSuperWriterModule]]  ====
 ==== [[CraftAdvancedEquipmentModule]]  ====
 ==== [[CraftApplyMaterialOnItemModule]]  ====
+==== [[CraftBreakdownModule]] ====
 ==== [[CraftDamageLoggerModule]] ====
 ==== [[CraftDamageModule]]  ====
 ==== [[CraftDefaultAttributeModule]]  ====
@@ -54,6 +55,7 @@ __NOTOC__
 ==== [[EquipmentRestrictionModule]]  ====
 ==== [[FlagModule]] ====
 ==== [[FontMagicModule]]  ====
+==== [[ItemDamageModule]] ====
 ==== [[ItemPointerModule]]  ====
 ==== [[LevelModule]]  ====
 ==== [[OffhandModule]]  ====
