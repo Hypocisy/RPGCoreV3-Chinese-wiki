@@ -70,5 +70,11 @@ Re-roll the colors of an item, this can affect socketables and skills. The color
 |-|-|-|
 | coloring-target | SOCKET/SKILL | Re-roll the coloring for socketables or for skills. |
 
+## Repairing an item 
 
+Add to the durability of an item you want to be repaired (rpgcore durability only.)
 
+| Keyword | Type | Description |
+|-|-|-|
+| repair-rate | integer | repair by this amount |
+| have-repair-tags | tag list | the repair tags which can be fixed up |
