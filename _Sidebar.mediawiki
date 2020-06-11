@@ -39,7 +39,7 @@ __NOTOC__
 * [[SkillModule: Levelling]] 
 * [[SkillModule: Variables]] 
 ==== [[AttributeSuperWriterModule]]  ====
-==== [AdvancedEquipmentModule]]  ====
+==== [[AdvancedEquipmentModule]]  ====
 ==== [[ApplyMaterialOnItemModule]]  ====
 ==== [[BreakdownModule]] ====
 ==== [[DamageLoggerModule]] ====
