@@ -51,7 +51,7 @@ __NOTOC__
 ==== [[DamageModule]] ====
 * [[DamageModule: Hardcoded Behaviour]] 
 * [[DamageModule: Customizing Damage]] 
-==== [[DefaultCharacterSelectionModule]]  ====
+==== [[DefaultCharacterModule]]  ====
 ==== [[EquipmentRestrictionModule]]  ====
 ==== [[FlagModule]] ====
 ==== [[FontMagicModule]]  ====
