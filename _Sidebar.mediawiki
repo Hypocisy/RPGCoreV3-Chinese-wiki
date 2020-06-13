@@ -5,6 +5,7 @@ __NOTOC__
 * [[Advanced Terminology]]
 * [[Using Commands]]
 * [[Attribute Syntax]]
+* [[Placeholder Options]]
 
 ==== [[EntityModule]] ====  
 * [[EntityModule: Creatures]] 
