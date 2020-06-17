@@ -11,6 +11,7 @@ One material may only have one upgrade purpose, defining multiple purposes will 
 |-|-|-|
 | success-chance | percentage | a chance for the upgrade to succeed (100% by default) |
 | can-break-item | boolean | upgrade failure may cause the item to break (false by default) |
+| craftingstation | boolean | material may only be used at a crafting station |
 
 ### Raise the upgrade tier
 
