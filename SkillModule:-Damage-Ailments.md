@@ -1,8 +1,6 @@
 Directory: "./../SkillModule/ailments.yml"  
 Module: SkillModule, DamageModule
 
-This article intentionally is listed with both the DamageModule and SkillModule, as it is related to both of them. 
-
 Ailments are global skills which are meant to be used to give certain damage types their own identity. Allow fire damage to burn enemies, lightning damage to cause a thunderstrike, chaos damage to inflict poison, cold damage to inflict a slowing effect and physical damage to impale enemies.
 
 You have the full skill system available for Ailments.
