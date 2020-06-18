@@ -1,5 +1,7 @@
 Called when the entity was killed
 
+The skill variables will also be read from the damage attributes that are involved in this Kill interaction. If you had something which added "ADD 50% TO VARIABLE_DURATION" to the damage attributes of the killing blow, it will affect all variables calculcated by the actions related to this trigger.
+
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
 | type | string | | death | yes | no |
