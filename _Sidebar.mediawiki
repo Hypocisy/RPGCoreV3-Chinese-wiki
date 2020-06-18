@@ -30,7 +30,6 @@ __NOTOC__
 * [[PassiveTreeModule: Examples]]
 ==== [[RPAssistant]]  ====
 ==== [[SkillModule]]  ====
-* [[SkillModule: Damage Ailments]]
 * [[SkillModule: Behaviours]] 
 * [[SkillModule: Triggers]] 
 * [[SkillModule: Mechanics]] 
@@ -53,6 +52,7 @@ __NOTOC__
 ==== [[DamageModule]] ====
 * [[DamageModule: Hardcoded Behaviour]] 
 * [[DamageModule: Customizing Damage]] 
+* [[SkillModule: Damage Ailments]]
 ==== [[DefaultCharacterModule]]  ====
 ==== [[EquipmentRestrictionModule]]  ====
 ==== [[FlagModule]] ====
