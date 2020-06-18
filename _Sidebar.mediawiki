@@ -39,6 +39,7 @@ __NOTOC__
 * [[SkillModule: Effect Cluster]] 
 * [[SkillModule: Levelling]] 
 * [[SkillModule: Variables]] 
+* [[SkillModule: Damage Ailments]]
 ==== [[AttributeSuperWriterModule]]  ====
 ==== [[AdvancedEquipmentModule]]  ====
 ==== [[ApplyMaterialOnItemModule]]  ====
