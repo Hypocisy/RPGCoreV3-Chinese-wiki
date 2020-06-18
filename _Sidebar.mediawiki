@@ -30,6 +30,7 @@ __NOTOC__
 * [[PassiveTreeModule: Examples]]
 ==== [[RPAssistant]]  ====
 ==== [[SkillModule]]  ====
+* [[SkillModule: Damage Ailments]]
 * [[SkillModule: Behaviours]] 
 * [[SkillModule: Triggers]] 
 * [[SkillModule: Mechanics]] 
