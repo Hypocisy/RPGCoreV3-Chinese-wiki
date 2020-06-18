@@ -12,9 +12,15 @@ The description of a skill may show up two types colors. When a variable is colo
 A variable is expected to be written like
 
 ```yml
+    # Scale with the "CAST_TIME" skill attribute
     CAST_TIME:
+      # the formula defining the variable
       value: 60-LEVEL
+      # The "CAST_TIME:INTELLIGENCE", "CAST_TIME:BUFF" and "CAST_TIME:SPELL" 
+      #  skill attributes will also scale the variable
       tags: [INTELLIGENCE, BUFF, SPELL]
+      # The "CASTER_MODIFIER" skill attribute will also scale the variable
+      absolute-tags: [CASTER_MODIFIER]
 ```
 
 Where value is evaluated when requested, the tags allow for easier global modification of it. 
@@ -60,3 +66,5 @@ Functions relative to the asking party.
 |-|-|
 | STACKS | accept id of behaviour we are checking, current stack count of a certain attachment |
 | DURATION | accept id of behaviour we are checking, remaining duration of a certain attachment |
+| MAXSTACKS | accept id of behaviour we are checking, maximum stack count of a certain attachment |
+| MAXDURATION | accept id of behaviour we are checking, maximum duration of a certain attachment |
