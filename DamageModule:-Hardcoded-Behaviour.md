@@ -7,6 +7,18 @@ Beneath you can find a listing of hardcoded systems, you may avoid putting them 
 
 There are a number of technical limitations when using the damage module, such as that damage always has to belong to a type and an element. There is a number of hardcoded types, which you can find in [[CraftDamageModule]], but weapons can be made to add extra types and skills have great freedom aswell.
 
+## Autotagging Behaviour
+
+RPGCore will manually add tags to the damage inflicted, which is related to the entity tags defined by the [[EntityModule: Creatures]] - all permutations are generated based on who is the attacker and defender. Note that players only have one tag, being "PLAYER" - beneath is a table showing which auto-tags would be generated in a given case.
+
+> Attacker: [PLAYER]
+> Defender: [SKELETON, DAMNED, EMPIRE, CHAOS_MONSTER, WARRIOR]
+> Damage Types (Part 1): [AUTOTAGGING_PLAYER_VS_SKELETON, ..., AUTOTAGGING_PLAYER_VS_WARRIOR]
+> Damage Types (Part 2): [AUTOTAGGING_ATK_PLAYER]
+> Damage Types (Part 3): [AUTOTAGGING_DEF_SKELETON, ..., AUTOTAGGING_DEF_WARRIOR]
+
+Should you want something that boosts damage against players, "ADD 100%% TO DAMAGE_PHYSICAL" with a check for the damage type called "AUTOTAGGING_DEF_PLAYER" would do it. Doubling physical damage against entities who have the "PLAYER" tag.
+
 ## Conversion Behaviour
 
 Conversion transforms damage from element to each other, allowing you to benefit from both of the elements at once. This refers both to the defensive and offensive modifiers. 
