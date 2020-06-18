@@ -4,6 +4,8 @@ The trigger is fired twice, once before we are running any calculcations (during
 
 Beware that should you have an action with [[Modify Damage]] related to this trigger, it will run **before** the damage is finished processing, hence you cannot observe the result of it. Previously this was the "finished=true" option, which now is automatically detected.
 
+Should we in the **finished** state, the variables will also be read from the damage attributes that are involved in this combat interaction. If you had something which added "ADD 50% TO VARIABLE_DURATION" to the damage attributes, it will affect all variables calculcated by the actions related to this trigger.
+
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
 | type | string | | deal-damage | yes | no |
