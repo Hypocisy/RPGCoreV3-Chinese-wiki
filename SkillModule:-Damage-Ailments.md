@@ -5,6 +5,8 @@ Ailments are global skills which are meant to be used to give certain damage typ
 
 You have the full skill system available for Ailments.
 
+## Usage of an Ailment Skill
+
 Below you can see an example for how to implement an ignite ailment, with the following rules:
 
 1. Ignite effect lasts 5 seconds (100 ticks)
@@ -12,6 +14,7 @@ Below you can see an example for how to implement an ignite ailment, with the fo
 3. Normal hits have a 10% chance of inflicting ignite
 4. Critical hits always inflict ignite on the enemy
 5. Duration, effect and chance can be scaled globally
+6. The skill is held by every entity that is spawned
 
 ```yml
 fire-ailment:
