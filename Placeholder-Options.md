@@ -1,4 +1,4 @@
-Beneath you can find a listing of all placeholder options, these require [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) to be installed. You need to lead these placeholders with a "rc", iE `%rc_current_level%` etc.
+Beneath you can find a listing of all placeholder options, these require [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) to be installed. You need to lead these placeholders with the rpgcore prefix, iE `%rc_current_level%` etc.
 
 ## Available Placeholders
 
