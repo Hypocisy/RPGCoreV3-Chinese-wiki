@@ -64,6 +64,9 @@ The random points are sampled at a distance of 32 to 64 blocks from a player, bu
 | require-state | spawner state | the specific type of a position we want to have | required |
 | deny-spawn-if-failed | targetter list | runs this layered targetter on the mob, despawning if no target remains | required |
 | spawnable-random | weighting | mapping of mob ids to weights, will roll a random mob to spawn | required |
+| region-requirement | string list | worldguard region ids, only one has to match | none |
+| block-requirement | section | y-axis offset mapped to materials. -1 to check block below | none | 
+| boss-spawns | string list | ids of boss spawners that will be incremented if you kill a member | none |
 
 ```yml
   'Vagabond R-Spawner #1':
@@ -95,3 +98,13 @@ The random points are sampled at a distance of 32 to 64 blocks from a player, bu
       BURNING_SOUL: 1
       UNDYING_VAGABOND: 4
 ```
+
+# Boss Configuration
+
+Everything unspecified inherits from the random spawners.
+
+| Option | Type | Description | Defaults |
+|-|-|-|-|
+| | | | |
+| kill-count | integer | number of mobs to kill before we can proc | required |
+| 
