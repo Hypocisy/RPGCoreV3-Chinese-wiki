@@ -14,7 +14,9 @@ Mechanics refer to something that will be applied at the given target. This rang
 | [[Velocity]] | [[Abort Execution]] | [[Leap]] | [[Teleport]] | [[Trail]] |
 | [[Upwind]] | [[Modify Support]] | [[Modify Data]] | [[Banner]] | [[Modify Minion]] |
 | [[Summon]] | [[Taunt]] | [[Pathfinder]] | [[AI Target]] | [[Chatting]] |
-| [[Modify Soul]] | [[Poison]] | | | |
+| [[Modify Soul]] | [[Poison]] | [[Set Block]] | [[Suspend]] | [[Phase]] |
+| [[Immortal]] | | | | |
+
 
 
 # Configuration of Mechanics
