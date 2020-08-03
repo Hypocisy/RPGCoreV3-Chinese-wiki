@@ -13,6 +13,7 @@ Conditions are used to narrow down targets, usually whenever you can input a con
 | [[Blocking]] | [[Attached]] | [[Variable]] | [[Unobstructed]] | [[Has Potion]] |
 | [[Crouching]] | [[Linked Slot]] | [[Equipped]] | [[Check Data]] | [[Entity Type]] |
 | [[Soul Condition]] | [[WG Condition]] | [[Time]] | [[Biome]] | [[RPGCore Type]] |
+| [[Phase]] | | | | |
 
 # Configuration of Conditions
 
