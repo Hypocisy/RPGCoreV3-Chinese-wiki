@@ -24,6 +24,7 @@ Mechanics refer to something that will be applied at the given target. This rang
 | repeat | integer | how often to repeat mechanic | 1 | no | yes |
 | interval | integer | repeat interval | 1 | no | yes |
 | delay | integer | ticks to delay inital execution | 0 | no | yes |
+| repeat-per-tick | integer | repeats multiple times in one tick | 1 | no | yes |
 | | | | | | |
 | cooldown | integer | cooldown in ticks for mechanic | 0 | no | yes |
 | cooldown-id | string | the cooldown id used, is shared by all other cooldown systems | unique | no | no |
