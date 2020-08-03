@@ -12,6 +12,7 @@ Targetters re-map the original input from the trigger to a specific target. The 
 | [[Unique Targets]] | [[Limited]] | [[Remember]] | [[Forward]] | [[Eye Height]] |
 | [[Memorize Targetter]] | [[Parent]] | [[Random Choice]] | [[Signalled]] | [[Exact]] |
 | [[Players]] | [[Summoner]] | [[Direction]] | [[Rotated]] | [[Random Direction]] |
+| [[Sender]] | [[Condition]] | [[Composite]] | | |
 
 # Configuration of Targetters
 
@@ -19,3 +20,4 @@ Targetters re-map the original input from the trigger to a specific target. The 
 |-|-|-|-|-|-|
 | remember | string | will store the target to be accessible within the isolated execution | | no | no |
 | conditions | string list | exact name of conditions defined by the parent skill | | no | no |
+| override | string | previous target that was memorized, forces it as the input | none | no | no |
