@@ -80,3 +80,16 @@ Draw a (hollowed!) sphere of particles.
 |-|-|-|-|-|-|
 | radius | decimal | radius of sphere | 2 | no | yes |
 | invert | boolean | inverted particle direction | false | no | no |
+
+
+## Pillar Particle 
+
+Draw a number of pillars in a circle
+
+| Key | Type | Description | Defaults | Required | Variable |
+|-|-|-|-|-|-|
+| radius | decimal | radius of pillar circle | 2 | no | yes |
+| length | decimal | length of pillars | 1 | no | yes |
+| total | integer | total of pillars drawn | 7 | no | yes |
+| shift | decimal | pillar rotation shifting | 0 | no | yes |
+| invert | boolean | inverted particle direction | false | no | no |
