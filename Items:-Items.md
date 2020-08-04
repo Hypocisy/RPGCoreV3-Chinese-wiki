@@ -19,7 +19,7 @@ This covers general item configuration, equipment still may need to specify the 
 | material | material | the [Material](https://github.com/CryptoMorin/XSeries/blob/master/src/main/java/com/cryptomorin/xseries/XMaterial.java) to use for this item |
 | name | string | displayname of the item, may be further modified |
 | lore | string list | mostly meant for flavor texts|
-| rarity | rarity | explicit [[ItemModule: Rarity]] or rarity weighing |
+| rarity | rarity | explicit [[Items: Rarity]] or rarity weighing |
 | seed | boolean | seed the item randomly, mostly meant for items that have random things |
 | implicits | attribute list | always available attributes for the item |
 | custom-tags | section | nbt data to write on the spawned item |
