@@ -1,5 +1,5 @@
-Directory: "./../entitymodule/spawners"  
-Module: EntityModule
+Directory: "./../Entities"  
+Module: Entities
 
 The filename should match with your world name, RPGCore then will handle the spawning within that world. It is recommended that you disable natural spawning rules, as only rpgcore mobs interact with rpgcore. Avoid mob stacking plugins.
 
