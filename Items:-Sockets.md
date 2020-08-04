@@ -1,5 +1,5 @@
-Directory: "./../itemmodule/sockets"  
-Module: ItemModule
+Directory: "./../Items/sockets"  
+Module: Items
 
 Socketable jewels are designed to be embedded on an item for additional attributes. Beware that your socketable and your slot both need to match in color. Additional details about coloring can be found here [[ItemModule: Coloring]]
 
