@@ -5,7 +5,7 @@ Beneath you can find a listing of hardcoded systems, you may avoid putting them 
 
 ## Technical Behaviour
 
-There are a number of technical limitations when using the damage module, such as that damage always has to belong to a type and an element. There is a number of hardcoded types, which you can find in [[CraftDamageModule]], but weapons can be made to add extra types and skills have great freedom aswell.
+There are a number of technical limitations when using the damage module, such as that damage always has to belong to a type and an element. There is a number of hardcoded types, which you can find in [[Minecraft]], but weapons can be made to add extra types and skills have great freedom aswell.
 
 ## Autotagging Behaviour
 
