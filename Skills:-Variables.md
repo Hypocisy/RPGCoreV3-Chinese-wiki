@@ -1,5 +1,5 @@
-Directory: "./../skillmodule/skills"  
-Module: SkillModule
+Directory: "./../Skills"  
+Module: Skills
 
 Variables are accessible across the whole skill system. **Some** of these variables may also be accessed as an entity attribute, but should be avoided as much as possible (the implementation is optimized for the skill system, not for entity attributes!) 
 
