@@ -1,4 +1,4 @@
-Directory: "./../rpassistant"  
+Directory: "./../Resourcepack"  
 Module: None
 Download: https://www.spigotmc.org/resources/71696/
 
