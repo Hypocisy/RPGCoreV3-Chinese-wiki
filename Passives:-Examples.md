@@ -1,5 +1,5 @@
-Directory: "./../passivetreemodule"  
-Module: PassiveTreeModule, LevelModule, SkillModule
+Directory: "./../Passives"  
+Module: Passives, Levels, Skills
 
 Owing the challenge of creating a proper passive tree, beneath you can find some selective examples serving specific purposes. It serves both as a repository, and as a reference for you to create your own assets.
 
