@@ -1,5 +1,5 @@
-Directory: "./../skillmodule/skills"  
-Module: SkillModule
+Directory: "./../Skills"  
+Module: Skills
 
 Itemization refers to a skill being acquired as a physical item. The skill system of RPGCore is designed for players to put their skills on their equipment, though if you go for something more permanent you can also use the passive tree as a source for skills (this however will not work for traps and totems, as they require the skill to be socketed on the item.)
 
