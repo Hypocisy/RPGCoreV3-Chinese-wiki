@@ -1,5 +1,5 @@
-Directory: "./../itemmodule/set-effects.yml", "./../itemmodule/items"  
-Module: ItemModule
+Directory: "./../Items/set-effects.yml", "./../Items/items"  
+Module: Items
 
 Set effects are acquired by equipping a number of items which share the same set tag. You can have multiple of the same item, accessory slots also are affected. Entities can be affected by multiple set effects, add the `set-effect` NBT tag to the item to attach it to a certain set effect. Beware that mobs also are affected by set effects, hence giving them real items may make their balancing really messy.
 
