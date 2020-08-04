@@ -23,7 +23,7 @@ __NOTOC__
 * [[Items: Coloring]]
 * [[Items: Set Effects]]
 * [[Items: Enchantments]]
-==== [[Languages]]  ====
+==== [[Language]]  ====
 ==== [[Marketplace]]  ====
 ==== [[Passives]]  ====
 * [[Passives: Usage]] 
@@ -45,11 +45,11 @@ __NOTOC__
 ==== [[Equipment]]  ====
 ==== [[Crafting]]  ====
 ==== [[Minecraft]]  ====
-==== [[Hologram]]  ====
+==== [[Holograms]]  ====
 ==== [[Combat]] ====
-* [[Combat: Hardcoded Behaviour]] 
-* [[Combat: Customizing Damage]] 
-* [[Skills: Damage Ailments]]
+* [[Combat: Hardcoded]] 
+* [[Combat: Customizing]] 
+* [[Skills: Ailments]]
 ==== [[Characters]]  ====
 ==== [[Restrictions]]  ====
 ==== [[Flagging]] ====
