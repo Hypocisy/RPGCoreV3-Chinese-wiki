@@ -1,7 +1,7 @@
 Directory: "./../Items/sockets"  
 Module: Items
 
-Socketable jewels are designed to be embedded on an item for additional attributes. Beware that your socketable and your slot both need to match in color. Additional details about coloring can be found here [[ItemModule: Coloring]]
+Socketable jewels are designed to be embedded on an item for additional attributes. Beware that your socketable and your slot both need to match in color. Additional details about coloring can be found here [[Items: Coloring]]
 
 You can access the socketing system either by dropping a socketable on an item or running the "/rc sockets" command while holding the item you want to socket something on. Socketed jewels can be swapped out at no cost.
 
