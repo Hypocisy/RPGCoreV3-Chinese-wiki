@@ -127,7 +127,7 @@ You can recycle skills from the skill module. These are the same ones as players
 
 ## Spawnegg
 
-This is an complete item configuration, see [[ItemModule: Items]] for further details. You can define it as a normal item in the item module too, just make sure to use the correct spawn-egg-id (it is automatically written when a part of the mob.)
+This is an complete item configuration, see [[Items: Items]] for further details. You can define it as a normal item in the item module too, just make sure to use the correct spawn-egg-id (it is automatically written when a part of the mob.)
 
 | Option | Type | Description | Defaults |
 |-|-|-|-|
