@@ -1,5 +1,5 @@
-Directory: "./../FlagModule.yml"  
-Module: FlagModule
+Directory: "./../Flagging.yml"  
+Module: Flagging
 
 This is an internal module with little to nothing being exposed for configuration, as the functionality is driven by other modules. You can access the functionality with the [[Update Flag]] and [[Check Flag]] parts of the skill system, to check and add other flags to an entity.
 
