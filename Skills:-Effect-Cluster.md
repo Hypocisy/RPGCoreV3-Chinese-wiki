@@ -1,5 +1,5 @@
-Directory: "./../skillmodule/skills"  
-Module: SkillModule
+Directory: "./../Skills"  
+Module: Skills
 
 Status effects are a necessity for every RPG, an effect cluster refers to what allows you to scale them. By default, there are only two clusters available. One for buff effects and one for curse effects. You can scale entity attribute effects and combat attribute effects, both applying as a magnitude scalar (defaults to 1.0, applied as a multiplier atop the final result.)
 
