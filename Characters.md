@@ -1,5 +1,5 @@
-Directory: "./../DefaultCharacterSelectionModule.yml"  
-Module: DefaultCharacterSelectionModule
+Directory: "./../Characters.yml"  
+Module: Characters
 
 A module to let players pick their characters. Do **not** disable this if you want to remove characters, should you not want a character system just delete all character slots and rpgcore will bypass this selection.
 
