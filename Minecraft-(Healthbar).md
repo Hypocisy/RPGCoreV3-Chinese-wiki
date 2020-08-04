@@ -1,5 +1,5 @@
-Directory: "./../CraftEnemyHealthBarModule.yml"  
-Module: CraftEnemyHealthBarModule
+Directory: "./../Minecraft.yml"  
+Module: Minecraft
 
 This is **disabled** by default, when enabled you will see the health of the last attacked enemy as a bossbar. Please note that there are multiple bossbars already in use (Offhand, Status effects) so you will end up with a really cluttered screen.
 
