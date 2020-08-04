@@ -1,5 +1,5 @@
-Directory: "./../skillmodule/skills"  
-Module: SkillModule
+Directory: "./../Skills"  
+Module: Skills
 
 A skill may level up to a certain point, the "LEVEL" variable is available everywhere. The damage mechanic, the entity attribute effect, the damage modification mechanic and any sort of variable can read up on the level. However beware that the level of a skill is fixed to when it has been acquired, you cannot change the level of a skill while you are using it.
 
