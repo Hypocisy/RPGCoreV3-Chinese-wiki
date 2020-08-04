@@ -1,5 +1,5 @@
-Directory: "./../CraftEntityHoloTagModule.yml"  
-Module: CraftEntityHoloTagModule
+Directory: "./../Holograms.yml"  
+Module: Holograms
 
 There is no configuration available for this module, except the capacity to disable it. The holotag module will create a series of floating holograms atop a player.
 
