@@ -1,5 +1,5 @@
-Directory: "./../entitymodule/creatures"
-Module: EntityModule
+Directory: "./../Entities"  
+Module: Entities
 
 There is a number of hardcoded attributes which affect monsters. While most of these are meant to be entity attributes, a few of them also apply to players.
 
