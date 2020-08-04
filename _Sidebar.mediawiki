@@ -40,7 +40,7 @@ __NOTOC__
 * [[Skills: Effect Cluster]] 
 * [[Skills: Levelling]] 
 * [[Skills: Variables]] 
-* [[Skills: Damage Ailments]]
+* [[Skills: Ailments]]
 ==== [[Attributes]]  ====
 ==== [[Equipment]]  ====
 ==== [[Crafting]]  ====
