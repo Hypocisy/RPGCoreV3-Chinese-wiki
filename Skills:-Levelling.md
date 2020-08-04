@@ -14,11 +14,11 @@ A skill may gain additional levels based on its tags. The tags are specified in 
 
 ## Level-Up (Killing)
 
-Killing mobs can grant skill experience, as specified in [[EntityModule: Creatures]] - when you gather sufficient experience the player will be shown a chat notification where they can hit the level up icon again. Note that the skill will only be levelling up if it actually has the experience to do so, hitting the icon again will not bring any benefits.
+Killing mobs can grant skill experience, as specified in [[Entities: Creatures]] - when you gather sufficient experience the player will be shown a chat notification where they can hit the level up icon again. Note that the skill will only be levelling up if it actually has the experience to do so, hitting the icon again will not bring any benefits.
 
 ## Level-Up (Material)
 
-The upgrade materials listed in [[ItemModule: Materials]] include one which can grant experience to a skill. You just need to apply it on an item by clicking on the itemized skill with it.
+The upgrade materials listed in [[Items: Materials]] include one which can grant experience to a skill. You just need to apply it on an item by clicking on the itemized skill with it.
 
 ## Configuring Levelling
 
