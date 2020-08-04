@@ -64,7 +64,7 @@ LEECH_AS_MANA_CHAOS: "{AMOUNT:PERCENT} {LEVEL} mana leeched from chaos damage"
 When formatting a number, you can utilize the following ways for formatting them (this is used across the whole core.) Should a wrong type be defined you will fallback to formatting as a decimal.
 
 | Option | Description | Example (1) | Example (2) |
-|-|-|-|
+|-|-|-|-|
 | PERCENT | formats a decimal as a percentage | 0.08 <=> +8% | 1.58 <=> +158% |
 | INT_PERCENT | formats a integer as a percentage | 113 <=> +113% | 11.5 <=> +11% |
 | DECIMAL | formats a decimal to 1 comma digit | 1.581 <=> 1.5 | 3.2 <=> 3.2 |
