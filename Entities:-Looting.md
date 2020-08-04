@@ -1,5 +1,5 @@
-Directory: "./../entitymodule/creatures", "./../itemmodule/items"  
-Module: EntityModule, ItemModule  
+Directory: "./../Entities", "./../Items"  
+Module: Entities, Items
 
 Looting is based on tagging. Every item in RPGCore is meant to be tagged. While this makes drops rather random, it will save you from defining large looting tables for every mob.
 
