@@ -1,5 +1,5 @@
-Directory: "./../passivetreemodule"  
-Module: PassiveTreeModule, LevelModule, SkillModule
+Directory: "./../Passives"  
+Module: Passives, Levels, Skills
 
 When creating a passive tree, you should split your work into three steps. While you can fully process it with just config files, the workflow described below is the optimal one once you get a grip on it. It is **not** possible to fully create a passive tree within the game.
 
