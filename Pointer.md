@@ -1,5 +1,5 @@
-Directory: "./../ItemPointerModule.yml"  
-Module: ItemPointerModule
+Directory: "./../Pointer.yml"  
+Module: Pointer
 
 A module to let item drops be indicated by glowing, helpful to show off high value items and add nametags floating above the item to make the purpose of it obvious.
 
