@@ -1,5 +1,5 @@
-Directory: "./../DamageModule.yml"  
-Module: DamageModule
+Directory: "./../Combat.yml"  
+Module: Combat
 
 Beneath you can find a listing of hardcoded systems, you may avoid putting them into use by not permitting your players to invest into them.
 
