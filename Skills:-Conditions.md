@@ -1,5 +1,5 @@
-Directory: "./../skillmodule/skills"  
-Module: SkillModule
+Directory: "./../Skills"  
+Module: Skills
 
 Conditions are used to narrow down targets, usually whenever you can input a condition you may also input a targetter - as the eventual check is more about what remains rather then why something remains. Read more about the [[layered]] targetter should you intend to mix targetters together like that.
 
