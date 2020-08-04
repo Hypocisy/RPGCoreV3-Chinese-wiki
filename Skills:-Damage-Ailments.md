@@ -1,5 +1,5 @@
-Directory: "./../SkillModule/ailments.yml"  
-Module: SkillModule, DamageModule
+Directory: "./../Skills/ailments.yml"  
+Module: Skills, Combat
 
 Ailments are global skills which are meant to be used to give certain damage types their own identity. Allow fire damage to burn enemies, lightning damage to cause a thunderstrike, chaos damage to inflict poison, cold damage to inflict a slowing effect and physical damage to impale enemies.
 
