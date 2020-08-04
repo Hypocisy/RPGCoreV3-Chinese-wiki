@@ -1,7 +1,7 @@
-Directory: "./../itemmodule/affixes"  
-Module: ItemModule
+Directory: "./../Items/affixes"  
+Module: Items
 
-Affixes reference to random modifiers on an item. An item will receive some random affixes upon being generated, the empty affix slots can be filled using [[ItemModule: Materials]] 
+Affixes reference to random modifiers on an item. An item will receive some random affixes upon being generated, the empty affix slots can be filled using [[Items: Materials]] 
 
 # Configuration (./../itemmodule/config.yml)
 
