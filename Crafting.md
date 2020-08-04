@@ -1,5 +1,5 @@
-Directory: "./../CraftApplyMaterialOnItemModule.yml"  
-Module: CraftApplyMaterialOnItemModule
+Directory: "./../Crafting.yml"  
+Module: Crafting
 
 This module permits you to left click on an item while holding a certain [[ItemModule: Materials]] to modify the said item.
 
