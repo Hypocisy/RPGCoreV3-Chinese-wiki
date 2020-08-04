@@ -5,16 +5,16 @@ Offhand tools are a specialized way of interacting with rpgcore, you may only ha
 
 Note that the configurations documented here refer to nbt tags on the offhand items.
 
-Check out [[SkillModule: Variables]] there are some variables which are related to certain offhand sub types. 
+Check out [[Skills: Variables]] there are some variables which are related to certain offhand sub types. 
 
-Check out [[SkillModule: Triggers]] there are some triggers which are related to certain offhand sub types.
+Check out [[Skills: Triggers]] there are some triggers which are related to certain offhand sub types.
 
 You can check the articles of the respective tools here
 
 | Offhand Type | Article | Description |
 |-|-|-|
-| TOME | [[OffhandModule: Spellbooks]] | Control over which specific spell to cast |
-| SHIELD | [[OffhandModule: Shields]] | Absorb a certain amount of damage |
-| TOTEM | [[OffhandModule: Totems]] | Summon a totem to cast a spell in your place |
-| TRAP | [[OffhandModule: Traps]] | Place a trap to cast a spell when triggered |
-| DUALWIELD | [[OffhandModule: Dualwield]] | Wield two melee weapons, hit with both |
+| TOME | [[Offhand: Spellbooks]] | Control over which specific spell to cast |
+| SHIELD | [[Offhand: Shields]] | Absorb a certain amount of damage |
+| TOTEM | [[Offhand: Totems]] | Summon a totem to cast a spell in your place |
+| TRAP | [[Offhand: Traps]] | Place a trap to cast a spell when triggered |
+| DUALWIELD | [[Offhand: Dualwield]] | Wield two melee weapons, hit with both |
