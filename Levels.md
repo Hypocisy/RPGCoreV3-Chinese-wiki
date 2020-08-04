@@ -1,5 +1,5 @@
-Directory: "./../levelmodule.yml"  
-Module: LevelModule, PassiveTreeModule, EntityModule
+Directory: "./../Levels.yml"  
+Module: Levels, Passives, Entities
 
 Killing mobs means you level up. Besides killing mobs, you also can receive experience from commands. Not to be confused with entity experience, skills also can gain experience and level up by gathering sufficient amounts of experience. 
 
