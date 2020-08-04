@@ -1,5 +1,5 @@
-Directory: "./../itemmodule", "./../offhandmodule.yml"  
-Module: ItemModule, OffhandModule
+Directory: "./../items", "./../offhand.yml"  
+Module: Items, Offhand
 
 # Usage of Spellbooks
 
