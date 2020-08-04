@@ -1,5 +1,5 @@
-Directory: "./../WorldGuardModule.yml"  
-Module: WorldGuardModule
+Directory: "./../Worldguard.yml"  
+Module: Worldguard
 Download: https://www.spigotmc.org/resources/67202/
 
 A module for worldguard integration, you may define "PVP" and "PVE" flags to prevent damage interactions. You may define "TRIGGER" to skills from being used. You may define a "RPGCORE" flag and set it to the zone, making all entities in it enjoy certain attribute changes.
