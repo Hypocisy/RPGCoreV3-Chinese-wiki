@@ -1,7 +1,7 @@
 Directory: "./../Items/items"  
 Module: Items
 
-Materials refer to items which are designed to modify other items. Should you intend to use the [[MarketplaceModule]] you also can use them as the currency to exchange items with. Make sure to check the [[ItemModule: Items]] article too, this is just an extension of that article.
+Materials refer to items which are designed to modify other items. Should you intend to use the [[Marketplace]] you also can use them as the currency to exchange items with. Make sure to check the [[Items: Items]] article too, this is just an extension of that article.
 
 One material may only have one upgrade purpose, defining multiple purposes will have no effects on it. **Everything below is expected as an NBT tag.**
 
