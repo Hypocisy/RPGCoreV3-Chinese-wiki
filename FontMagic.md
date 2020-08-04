@@ -1,5 +1,5 @@
-Directory: "./../FontMagicActionBarModule.yml"  
-Module: FontMagicActionBarModule
+Directory: "./../FontMagic.yml"  
+Module: FontMagic
 
 A module using some font tricks available after 1.13 to create some custom interface elements. Should you be on 1.12 there are a number of fallback systems in place, but you are rather limited.
 
