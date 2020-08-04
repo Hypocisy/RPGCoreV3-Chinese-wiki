@@ -27,7 +27,7 @@ The general configuration options of the language module.
 
 A language string accepts placeholders like `{AMOUNT:TYPE}`, for example if you want to display the amount of health like `+148 to maximum health` you would use `{AMOUNT:INTEGER} to maximum health` while wanting to see something like `+1.3% to crit chance with attacks` would require `{AMOUNT:PERCENT} to crit chance with attacks` as the formatter.
 
-# Creating the language patterns for attributes (./../languagemodule/default-language.yml)
+# Creating the language patterns for attributes (./../Language/default-language.yml)
 
 Should you want to avoid writing an almost identical language pattern almost a hundred times to cover the slight modifications of it, you can use the assisted mappings to help you generating permutations. File these under the `assisted-mapping` section
 
