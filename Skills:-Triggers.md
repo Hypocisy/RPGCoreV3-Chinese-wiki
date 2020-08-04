@@ -1,5 +1,5 @@
-Directory: "./../skillmodule/skills"  
-Module: SkillModule
+Directory: "./../Skills"  
+Module: Skills
 
 A trigger refers to a certain happening that matches out requirements for it, when a trigger is procced the logic of it will be executed.
 
