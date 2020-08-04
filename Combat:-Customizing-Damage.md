@@ -1,5 +1,5 @@
-Directory: "./../DamageModule.yml"  
-Module: DamageModule
+Directory: "./../Combat.yml"  
+Module: Combat
 
 Customizing the way damage works on your server is very much possible, to a more limited extent you also can interact with the things defined in [[DamageModule: Hardcoded Behaviour]] by directly modifying their combat attribute.
 
