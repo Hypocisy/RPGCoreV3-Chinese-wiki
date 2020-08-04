@@ -1,5 +1,5 @@
-Directory: "./../itemmodule/items"  
-Module: ItemModule, SkillModule
+Directory: "./../Items/items"  
+Module: Items, Skills
 
 Offhand tools are a specialized way of interacting with rpgcore, you may only have one of them active at a time. Beware that only the RPGCore item itself will open up these capacities. **The offhand item will only grant you the benefits if it is equipped to your offhand.**
 
