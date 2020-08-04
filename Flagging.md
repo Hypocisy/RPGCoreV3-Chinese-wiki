@@ -5,7 +5,7 @@ This is an internal module with little to nothing being exposed for configuratio
 
 ## Default Flags
 
-The attribute refers to the ticks before advancing the state, if no attribute is defined it means that it cannot be modified. You may manually define the attribute in the [[Attribute]] module should you want, but be warned that this may result in a drop in performance. The attribute defaults to 80, making a flag update every 4 seconds.
+The attribute refers to the ticks before advancing the state, if no attribute is defined it means that it cannot be modified. You may manually define the attribute in the [[Attributes]] module should you want, but be warned that this may result in a drop in performance. The attribute defaults to 80, making a flag update every 4 seconds.
 
 The attribute is "CYCLE_" followed by the Id of the flag.
 
