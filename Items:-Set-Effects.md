@@ -3,7 +3,7 @@ Module: Items
 
 Set effects are acquired by equipping a number of items which share the same set tag. You can have multiple of the same item, accessory slots also are affected. Entities can be affected by multiple set effects, add the `set-effect` NBT tag to the item to attach it to a certain set effect. Beware that mobs also are affected by set effects, hence giving them real items may make their balancing really messy.
 
-### Setting up a set effect (./../itemmodule/set-effects.yml)
+### Setting up a set effect (./../Items/set-effects.yml)
 
 Note that you gain the sum of all set effect tiers, so make sure that effects are **not** duplicates (iE: granting a lv13 skill, then a lv15 skill, then a lv20 skill!)
 
