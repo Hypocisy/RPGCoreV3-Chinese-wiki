@@ -1,5 +1,5 @@
-Directory: "./../entitymodule/creatures"  
-Module: EntityModule
+Directory: "./../Entities"  
+Module: Entities
 
 Only monsters that were created by rpgcore will be affected by it, do not utilize a third party mob plugin. 
 
