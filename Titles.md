@@ -3,7 +3,7 @@ Module: Titles
 
 Titles are managed with their commands, you can see them listed when you run the "rc help" command. A player can have a number of passive titles, and one main title. The only effect of titles are attributes, the implementation is fairly efficient so even having thousands of titles should be blazing fast - provided you are using specific numbers in their effects.
 
-The [[CraftEntityHoloTagModule]] also happens to display the main title of a player!
+The [[Holograms]] also happens to display the main title of a player!
 
 Please note that titles are per character, they are not shared across characters. As titles are permanent, you can use them to grant persistent status changes too.
 
