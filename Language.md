@@ -1,9 +1,9 @@
-Directory: "./../languagemodule"  
-Module: LanguageModule
+Directory: "./../Language"  
+Module: Language
 
 The language module is handling the majority of general translation aspects, however note that some things (e.G: skill descriptions, item displayname, passive tree nodes etc) would be handled by their local module rather then the language module.
 
-# Configuration (./../languagemodule/config.yml)
+# Configuration (./../Language/config.yml)
 
 The general configuration options of the language module.
 
@@ -23,7 +23,7 @@ The general configuration options of the language module.
 | note-when-jewel | string list | extra description to indicate how to socket a jewel |
 | note-when-skill | string list | extra description to indicate how to socket a skill |
 
-# Writing a language pattern (./../languagemodule/default-language.yml)
+# Writing a language pattern (./../Language/default-language.yml)
 
 A language string accepts placeholders like `{AMOUNT:TYPE}`, for example if you want to display the amount of health like `+148 to maximum health` you would use `{AMOUNT:INTEGER} to maximum health` while wanting to see something like `+1.3% to crit chance with attacks` would require `{AMOUNT:PERCENT} to crit chance with attacks` as the formatter.
 
