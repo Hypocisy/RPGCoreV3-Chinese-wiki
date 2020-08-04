@@ -1,5 +1,5 @@
-Directory: "./../CustomAttribute.yml"  
-Module: CustomAttributeModule
+Directory: "./../Attributes.yml"  
+Module: Attributes
 
 This allows you add additional attributes to your server. Note that the SkillModule and DamageModule both generate a number of additional attributes which are related to their individual configurations. There is a very limited section of attributes which actually requires you to manually define.
 
