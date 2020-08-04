@@ -3,7 +3,7 @@ Module: Items, Skills
 
 The following colors are possible to be utilized: BLUE, YELLOW, GREEN, RED, WHITE, BROWN, PURPLE, LIGHT_BLUE, ORANGE, GRAY and BLACK (Owing minecraft limitations, these are the only colors which are possible. There are no plans on adding support for other coloring.)
 
-Check [[ItemModule: Materials]] for means of modifying the colors of existing items.
+Check [[Items: Materials]] for means of modifying the colors of existing items.
 
 Warning: The default configuration excludes the coloring system.
 
