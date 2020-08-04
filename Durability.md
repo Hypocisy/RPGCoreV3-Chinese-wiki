@@ -1,5 +1,5 @@
-Directory: "./../ItemDamageModule.yml"  
-Module: ItemDamageModule
+Directory: "./../Durability.yml"  
+Module: Durability
 
 This module allows you to create items with certain durability, this durability is tracked **separately** from minecraft durability. You can setup repairing stations to repair the items in question, the [[BreakdownModule]] is an excelelnt way of acquiring repairing materials but they also could be dropped from mobs. Check [[ItemModule: Materials]] for repair materials.
 
