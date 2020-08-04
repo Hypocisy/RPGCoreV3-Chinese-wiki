@@ -1,5 +1,5 @@
-Directory: "./../EquipmentRestrictionModule.yml"  
-Module: EquipmentRestrictionModule
+Directory: "./../Items/config.yml"  
+Module: Restrictions
 
 Serves to restrict players from equipping certain items. Note that even if some sort of a exploit is found to equip the item, the player still is not going to receive the effects of it. Only players will be checked for equipment conditions.
 
