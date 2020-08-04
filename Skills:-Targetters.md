@@ -1,5 +1,5 @@
-Directory: "./../skillmodule/skills"  
-Module: SkillModule
+Directory: "./../Skills"  
+Module: Skills
 
 Targetters re-map the original input from the trigger to a specific target. The original target differes from trigger to trigger, for example "deal-damage" would point at who you damaged while "timer" would just point at yourself.
 
