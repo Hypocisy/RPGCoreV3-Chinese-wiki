@@ -1,5 +1,5 @@
-Directory: "./../itemmodule/items"  
-Module: ItemModule, SkillModule
+Directory: "./../Items/items"  
+Module: Items, Skills
 
 Consumable items are a mix of items and skills. When consuming the item, it will proc a certain behaviour on the item and you can add some follow up logic after that behaviour is triggered. 
 
