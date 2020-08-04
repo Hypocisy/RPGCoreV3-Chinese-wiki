@@ -1,5 +1,5 @@
-Directory: "./../itemmodule/items"  
-Module: ItemModule, SkillModule
+Directory: "./../Items/items"  
+Module: Items, Skills
 
 The following colors are possible to be utilized: BLUE, YELLOW, GREEN, RED, WHITE, BROWN, PURPLE, LIGHT_BLUE, ORANGE, GRAY and BLACK (Owing minecraft limitations, these are the only colors which are possible. There are no plans on adding support for other coloring.)
 
