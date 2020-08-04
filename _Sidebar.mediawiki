@@ -7,67 +7,62 @@ __NOTOC__
 * [[Attribute Syntax]]
 * [[Placeholder Options]]
 
-==== [[EntityModule]] ====  
-* [[EntityModule: Creatures]] 
-* [[EntityModule: Spawners]] 
-* [[EntityModule: Looting]] 
-* [[EntityModule: Attributes]]
-==== [[ItemModule]] ====  
-* [[ItemModule: Affixes]]   
-* [[ItemModule: Sockets]]  
-* [[ItemModule: Items]]  
-* [[ItemModule: Consumables]]  
-* [[ItemModule: Materials]]  
-* [[ItemModule: Offhand]]  
-* [[ItemModule: Rarity]]
-* [[ItemModule: Coloring]]
-* [[ItemModule: Set Effects]]
-* [[ItemModule: Enchantments]]
-==== [[LanguageModule]]  ====
-==== [[MarketplaceModule]]  ====
-==== [[PassiveTreeModule]]  ====
-* [[PassiveTreeModule: Usage]] 
-* [[PassiveTreeModule: Creation]] 
-* [[PassiveTreeModule: Examples]]
-==== [[RPAssistant]]  ====
-==== [[SkillModule]]  ====
-* [[SkillModule: Behaviours]] 
-* [[SkillModule: Triggers]] 
-* [[SkillModule: Mechanics]] 
-* [[SkillModule: Targetters]] 
-* [[SkillModule: Conditions]] 
-* [[SkillModule: Itemization]] 
-* [[SkillModule: Effect Cluster]] 
-* [[SkillModule: Levelling]] 
-* [[SkillModule: Variables]] 
-* [[SkillModule: Damage Ailments]]
-==== [[AttributeSuperWriterModule]]  ====
-==== [[AdvancedEquipmentModule]]  ====
-==== [[ApplyMaterialOnItemModule]]  ====
-==== [[BreakdownModule]] ====
-==== [[DamageLoggerModule]] ====
-==== [[DamageModule]]  ====
-==== [[DefaultAttributeModule]]  ====
-==== [[EnemyHealthBarModule]]  ====
-==== [[EntityHoloTagModule]]  ====
-==== [[CustomAttributeModule]]  ====
-==== [[DamageModule]] ====
-* [[DamageModule: Hardcoded Behaviour]] 
-* [[DamageModule: Customizing Damage]] 
-* [[SkillModule: Damage Ailments]]
-==== [[DefaultCharacterModule]]  ====
-==== [[EquipmentRestrictionModule]]  ====
-==== [[FlagModule]] ====
-==== [[FontMagicModule]]  ====
-==== [[ItemDamageModule]] ====
-==== [[ItemPointerModule]]  ====
-==== [[LevelModule]]  ====
-==== [[OffhandModule]]  ====
-* [[OffhandModule: Spellbooks]] 
-* [[OffhandModule: Totems]] 
-* [[OffhandModule: Traps]] 
-* [[OffhandModule: Shields]] 
-* [[OffhandModule: Dualwield]] 
-* [[OffhandModule: Two Handed]]
-==== [[TitleModule]]  ====
-==== [[WorldGuardModule]]  ====
+==== [[Entities]] ====  
+* [[Entities: Creatures]] 
+* [[Entities: Spawners]] 
+* [[Entities: Looting]] 
+* [[Entities: Attributes]]
+==== [[Items]] ====  
+* [[Items: Affixes]]   
+* [[Items: Sockets]]  
+* [[Items: Items]]  
+* [[Items: Consumables]]  
+* [[Items: Materials]]  
+* [[Items: Offhand]]  
+* [[Items: Rarity]]
+* [[Items: Coloring]]
+* [[Items: Set Effects]]
+* [[Items: Enchantments]]
+==== [[Languages]]  ====
+==== [[Marketplace]]  ====
+==== [[Passives]]  ====
+* [[Passives: Usage]] 
+* [[Passives: Creation]] 
+* [[Passives: Examples]]
+==== [[Resourcepack]]  ====
+==== [[Skills]]  ====
+* [[Skills: Behaviours]] 
+* [[Skills: Triggers]] 
+* [[Skills: Mechanics]] 
+* [[Skills: Targetters]] 
+* [[Skills: Conditions]] 
+* [[Skills: Itemization]] 
+* [[Skills: Effect Cluster]] 
+* [[Skills: Levelling]] 
+* [[Skills: Variables]] 
+* [[Skills: Damage Ailments]]
+==== [[Attributes]]  ====
+==== [[Equipment]]  ====
+==== [[Crafting]]  ====
+==== [[Minecraft]]  ====
+==== [[Hologram]]  ====
+==== [[Combat]] ====
+* [[Combat: Hardcoded Behaviour]] 
+* [[Combat: Customizing Damage]] 
+* [[Skills: Damage Ailments]]
+==== [[Characters]]  ====
+==== [[Restrictions]]  ====
+==== [[Flagging]] ====
+==== [[FontMagic]]  ====
+==== [[Durability]] ====
+==== [[Pointer]]  ====
+==== [[Levels]]  ====
+==== [[Offhand]]  ====
+* [[Offhand: Spellbooks]] 
+* [[Offhand: Totems]] 
+* [[Offhand: Traps]] 
+* [[Offhand: Shields]] 
+* [[Offhand: Dualwield]] 
+* [[Offhand: Two Handed]]
+==== [[Titles]]  ====
+==== [[Worldguard]]  ====
