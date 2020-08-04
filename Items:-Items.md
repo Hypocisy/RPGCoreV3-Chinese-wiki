@@ -36,8 +36,8 @@ This covers general item configuration, equipment still may need to specify the 
 
 | Option | Type | Description |
 |-|-|-|
-| color-weighing | color-integer | the weighing used when rolling the [[ItemModule: Coloring]] |
-| local-data.affixing-pool | string | affixing pool to use when rolling for [[ItemModule: Affixes]] |
+| color-weighing | color-integer | the weighing used when rolling the [[Items: Coloring]] |
+| local-data.affixing-pool | string | affixing pool to use when rolling for [[Items: Affixes]] |
 | local-data.main-skills | skill:level list | socketed skills will support these skills |
 | local-data.support-skills | skill:level list | socketed skills are supported by these skills |
 | local-data.link-state | string | local value using 0 and 1 to represent the skill linking state (locked/unlocked) |
@@ -47,7 +47,7 @@ This covers general item configuration, equipment still may need to specify the 
 
 Note that these parameters can be present on arrows too and will overlap with the modifiers present on the bow.
 
-You can read up on further details in the [[DamageModule: Hardcoded Behaviour]] article, there is a section specific to how items interact with the damage module and how damage itself is setup.
+You can read up on further details in the [[Combat: Hardcoded]] article, there is a section specific to how items interact with the damage module and how damage itself is setup.
 
 | keyword | type | description |
 |-|-|-|
