@@ -1,5 +1,5 @@
-Directory: "./../CraftAdvancedEquipmentModule.yml"  
-Module: CraftAdvancedEquipmentModule
+Directory: "./../Equipment.yml"  
+Module: Equipment
 
 This allows you to setup additional slots for players to equip items in. You will hijack some inventory slots for this to work, there currently is no other way of putting this into use. Beneath you can see the respective id at the matching position.
 
