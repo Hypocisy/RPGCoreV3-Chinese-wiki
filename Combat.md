@@ -1,3 +1,3 @@
 | | | |
 |-|-|-|
-| [[Combat: Hardcoded Behaviour]] | [[Combat: Customizing Damage]] | |
+| [[Combat: Hardcoded Behaviour]] | [[Combat: Customizing Damage]] | [[Combat: Damage Ailments]] |
