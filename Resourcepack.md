@@ -13,6 +13,8 @@ Beneath is a copy of the latest readme for RPAssist.
 ```
 RPAssistant can be grabbed from here: https://www.spigotmc.org/resources/71696/ 
 
+RPAssistant can be grabbed from here: https://www.spigotmc.org/resources/71696/ 
+
 A dropbox access token can be grabbed be grabbed from here: https://www.dropbox.com/developers/apps
   1.) select "create app"
   2.) select "Dropbox API"
