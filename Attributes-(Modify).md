@@ -1,5 +1,5 @@
-Directory: "./../AttributeSuperWriterModule.yml"  
-Module: AttributeSuperWriterModule
+Directory: "./../Attributes.yml"  
+Module: Attributes  
 
 This allows you to modify pre-existing attributes on the server, setting limitations and overiding default values. Beware that this is **not** creating a new attribute, you can only modify existing attributes. Check out [[CustomAttributeModule]] if you want to create additional attributes.
 
