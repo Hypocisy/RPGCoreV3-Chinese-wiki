@@ -32,3 +32,23 @@ Beneath is an example for the "intelligence" attribute, capping out at 999 and d
           INCREASED: 0
           MULTIPLIED: 0
 ```
+
+# How to give players default attributes
+
+This allows you to specify the default attributes for a player.
+
+| Option | Type | Description |
+|-|-|-|
+| default-player-attributes | attribute modifiers | a list of attributes granted to a player |
+
+# How to modify existing attributes
+
+This allows you to modify pre-existing attributes on the server, setting limitations and overiding default values. Beware that this is **not** creating a new attribute, you can only modify existing attributes.
+
+| Option | Type | Description |
+|-|-|-|
+| minimum | decimal | fixed threshold we cannot evaluate below |
+| maximum | decimal | fixed threshold we cannot evaluate above |
+| minimum-id | string | attribute we cannot evaluate below |
+| maximum-id | string | attribute we cannot evaluate above |
+| defaults | decimal | always added to base value of attribute |
