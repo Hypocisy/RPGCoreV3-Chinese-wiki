@@ -1,5 +1,5 @@
-Directory: "./../CraftDefaultAttributeModule.yml"  
-Module: CraftDefaultAttributeModule
+Directory: "./../Attributes.yml"  
+Module: Attributes
 
 This allows you to specify the default attributes for a player.
 
