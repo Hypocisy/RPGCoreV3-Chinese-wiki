@@ -1,5 +1,5 @@
-Directory: "./../itemmodule/items"  
-Module: ItemModule
+Directory: "./../Items/items"  
+Module: Items
 
 Items created from within RPGCore can affect players and monsters alike. There is no differentiation between a player having an item, and a mob having an item. 
 
