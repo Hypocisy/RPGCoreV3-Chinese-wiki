@@ -9,7 +9,7 @@ There are a number of technical limitations when using the damage module, such a
 
 ## Autotagging Behaviour
 
-RPGCore will manually add tags to the damage inflicted, which is related to the entity tags defined by the [[EntityModule: Creatures]] - all permutations are generated based on who is the attacker and defender. Note that players only have one tag, being "PLAYER" - beneath is a table showing which auto-tags would be generated in a given case.
+RPGCore will manually add tags to the damage inflicted, which is related to the entity tags defined by the [[Entities: Creatures]] - all permutations are generated based on who is the attacker and defender. Note that players only have one tag, being "PLAYER" - beneath is a table showing which auto-tags would be generated in a given case.
 
 > Attacker: [PLAYER]
 > Defender: [SKELETON, DAMNED, EMPIRE, CHAOS_MONSTER, WARRIOR]
