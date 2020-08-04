@@ -1,5 +1,5 @@
-Directory: "./../skillmodule/skills"  
-Module: SkillModule
+Directory: "./../Skills"  
+Module: Skills
 
 The skill system is built on behaviours. A behaviour is defined as a number of actions to be executed when a certain trigger is procced. The skill system is extremely advanced and flexible, much more so then the systems of most other resources, but putting it to use can prove quite a challenge.
 
