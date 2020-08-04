@@ -18,4 +18,4 @@ Example Itemization:
       skill-color: RED
 ```
 
-This would create an itemized skill, requiring a red socket (See: [[ItemModule: Coloring]]), having the "SKILL" display binding (See: [[ItemPointerModule]]) and using a diamond hoe with the model number 47.
+This would create an itemized skill, requiring a red socket (See: [[Items: Coloring]]), having the "SKILL" display binding (See: [[Pointer]]) and using a diamond hoe with the model number 47.
