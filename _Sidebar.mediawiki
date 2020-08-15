@@ -23,6 +23,7 @@ __NOTOC__
 * [[Items: Coloring]]
 * [[Items: Set Effects]]
 * [[Items: Enchantments]]
+* [[Items: Local & Overview]]
 ==== [[Language]]  ====
 ==== [[Marketplace]]  ====
 ==== [[Passives]]  ====
