@@ -3,6 +3,8 @@ Module: Items
 
 Item rarity is not hard coded, however modifying it will require to match '''several''' configuration files for it. Beneath you can find a listing of all modules and configuration files that are affected by item rarity. This list may not be accurate at all times.
 
+The following rarities exist: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+
 Warning: '''All items roll a rarity upon being created.''' You cannot modify the item rarity of an existing item.
 
 * Item Configurations.  
