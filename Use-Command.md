@@ -2,4 +2,5 @@ Execute a command relative from every single entity that was targetted, all comm
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
+| type | string | | command | yes | no |
 | command | string | command to execute | / | yes | no |
