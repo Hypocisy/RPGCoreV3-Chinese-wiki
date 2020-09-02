@@ -1,6 +1,4 @@
-Called at a regular interval while the totem is active. Note that costs for totems are deduced from the beginning and no additional cost will be deduced while the totem is running the skill.
-
-Check [[OffhandModule: Totems]] and [[ItemModule: Offhand]]
+You can bind a skill to the [[Skillbar]] and summon a totem using the skill in your place.
 
 If among the actions executed by this trigger is a damage mechanic, it will be manually inserted with a "TOTEM" damage type. Additionally, all variables will receive a sub type of ":TOTEM"
 
