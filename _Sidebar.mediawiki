@@ -62,6 +62,6 @@ __NOTOC__
 * [[Offhand: Shields]] 
 * [[Offhand: Dualwield]] 
 * [[Offhand: Two Handed]]
-==== [[Skillbar]]
+==== [[Skillbar]] ====
 ==== [[Titles]]  ====
 ==== [[Worldguard]]  ====
