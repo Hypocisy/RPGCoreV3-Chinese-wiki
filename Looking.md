@@ -4,6 +4,5 @@ Picks the furthest away block according to where the target is looking, will pic
 |-|-|-|-|-|-|
 | type | / | / | looking | / | / |
 | distance | decimal | maximum travel distance | 10 | no | yes |
-| entity-target-distance | decimal | if an entity is within the given range, target them instead | 3 | no | yes |
-| target-entity | boolean | if an entity is near, pick the entity instead. | true | no | no |
+| entity | boolean | if an entity is near, pick the entity instead. | true | no | no |
 | ignore-liquid | boolean | allow to phase through liquid blocks | true | no | no |
