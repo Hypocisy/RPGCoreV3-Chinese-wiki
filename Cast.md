@@ -5,6 +5,7 @@ If among the actions executed by this trigger is a damage mechanic, it will be m
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
 | type | / | / | cast | / | / |
+| gcd | integer | global cast cooldown, checked before specific cooldown | 0 | no | yes |
 | casttime | integer | duration to use this ability | 20 | no | yes |
 | channel-cooldown | integer | cooldown after the skill finished | / | no | yes |
 | max-channelling | integer | maximum duration to channel | / | no | yes |
