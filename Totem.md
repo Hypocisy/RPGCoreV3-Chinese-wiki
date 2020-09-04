@@ -7,6 +7,7 @@ If among the actions executed by this trigger is a damage mechanic, it will be m
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
 | type | / | / | totem | / | / |
+| gcd | integer | global cast cooldown, checked before specific cooldown | 0 | no | yes |
 | channel | string | uniquely identifying totem channel | | yes | no |
 | totem-interval | tick seconds | interval at which the totem runs its actions | 20 | no | yes |
 | maximum | integer | maximum of totems summoned concurrently | 1 | no | yes |
