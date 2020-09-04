@@ -5,6 +5,7 @@ If among the actions executed by this trigger is a damage mechanic, it will be m
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
 | type | / | / | trap | / | / |
+| gcd | integer | global cast cooldown, checked before specific cooldown | 0 | no | yes |
 | hostile | boolean | triggers when a hostile entity enters range | true | no | no |
 | duration | tick seconds | duration that the trap remains before triggering by itself | 200 | yes | yes |
 | trigger-radius | integer | the radius within which the proximity check is active | 3 | yes | yes |
