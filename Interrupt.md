@@ -2,3 +2,4 @@ Interrupts a skill casted via the [[Skillbar]], no cost is returned. If you want
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
+| type | string | | interrupt | yes | no |
