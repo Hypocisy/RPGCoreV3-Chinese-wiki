@@ -23,7 +23,7 @@ A trigger refers to a certain happening that matches out requirements for it, wh
 | cooldown | integer | ticks to enter a cooldown after triggering | 0 | no | yes |
 | priority | integer | lower priority is run first | 0 | no | no |
 | cooldown-id | string | coodown namespace to share | random | no | no |
-| phase | string | a phase requirement, sub phase handled with : separation | | no | no |
+| phase | string list | a phase requirement iE 'SHIELD_PHASE:PREPARING' checks for 'PREPARING' as the value of 'SHIELD_PHASE' - all of these phases must be matching. | | no | no |
 | condition | decimal | the final result is checked with boolean logic, full access to variables | 1 | no | yes |
 
 
