@@ -13,13 +13,12 @@ Sends particles to the nearby players, different particle classes accept differe
 
 Should you use the string notation, you may only have one type of a particle used. But should you use the extended notation (a full section) you can mix a bigger number of particles together.
 
+If you wish particles to have directions, you must set the amount to 0 - like that the particle class you went for will input direction.
+
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
 | multi-particle | section | a section with multiple particle configurations | / | no | no |
 | particle | Particle | [Particle](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) to use | REDSTONE | no | no |
-| x | decimal | particle offset | 0 | no | no |
-| y | decimal | particle offset | 0 | no | no |
-| z | decimal | particle offset | 0 | no | no |
 | speed | decimal | motion speed of particle | no | no |
 | size | decimal | size of particle | 1 | no | no |
 | amount | integer | number of particles | 0 | no | no |
