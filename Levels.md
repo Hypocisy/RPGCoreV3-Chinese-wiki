@@ -18,7 +18,7 @@ In the default configuration, the death of a Lv120 player will reward 250.000 ex
 
 # Configuring levels
 
-Every level requires a customized configuration. The keying is the level we are processing, make sure that you do not keep any gaps between the levels so players can actually level up. Players start at Lv1.
+Every level requires a customized configuration. The keying is the level we are processing, make sure that you do not keep any gaps between the levels so players can actually level up. Players start at Lv1. Command rewards can substitute %player% and %uuid% and are executed as operators by the levelling player.
 
 | Option | Type | Description |
 |-|-|-|
@@ -31,6 +31,7 @@ Every level requires a customized configuration. The keying is the level we are 
 | notification-self | string list | message sent to player, {0} is reached level |
 | notification-global | string list | message broadcasted, {0} is name, {1} is level |
 | bottleneck | section | stop from levelling up, until a command is run to break the bottleneck |
+| command-rewards | list | list of commands executed when leaving this level |
 
 # Bottlenecks
 
