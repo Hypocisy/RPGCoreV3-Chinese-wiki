@@ -17,7 +17,6 @@ Important note: The 'signal' behaviours are **required** to be assigned as PRIMA
 | signal-prefix | string | prefixes the signals fired if defined | | no | no |
 | velocity-x/y/z | percentage | velocity multiplier applied | 100% | no | yes |
 | representing-item | material | will attach an item to the proxy | / | no | no |
-| representing-custom-model | integer | uses a custom model data tag for the item (1.12+) | / | no | no |
 
 ## Proxy Type: METEOR
 
