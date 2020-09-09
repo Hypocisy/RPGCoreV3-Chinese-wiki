@@ -1,4 +1,4 @@
-Picks points near **every** target which was input. If we roll to pick an entity, but no entities are available no target will be picked.
+Picks points near **every** target which was input. If we roll to pick an entity, but no entities are available, no target will be picked.
 
 | Key | Type | Description | Defaults | Required | Variable |
 |-|-|-|-|-|-|
