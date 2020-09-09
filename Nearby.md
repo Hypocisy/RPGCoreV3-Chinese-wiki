@@ -9,3 +9,4 @@ Picks points near **every** target which was input. If we roll to pick an entity
 | minimum-distance | decimal | minimum distance from the original | 0 | no | yes |
 | maximum-distance | decimal | maximum distance from the original | 1 | no | yes |
 | entity-target-chance | percentage | chance to pick an entity within range rather then a point | 50% | no | yes |
+| exclude-self | boolean | among the entities picked, exclude the input | true | no | no |
