@@ -1,9 +1,19 @@
 Directory: "./../Holograms.yml"  
 Module: Holograms
 
-There is no configuration available for this module, except the capacity to disable it. The holotag module will create a series of floating holograms atop a player.
+# Damage Indicator Holograms
 
-There are the following holograms, a hologram is not shown if it is not applicable. Additional holograms may be added at a later point.
+When entities take damage, holograms will spawn for these numbers.
+
+| Option | Type | Description |
+|-|-|-|
+| damage-color-avoided | string | indicator color for avoided damage |
+| damage-color-received | string | indicator color for received damage |
+| damage-color-critical | string | indicator color for critical damage |
+
+# Entity Hologram
+
+There is no configuration available for this module, the components are inherited from the definition of outer sources. These are mounted to all entites active in RPGCore.
 
 | Hologram | Position | Content |
 |-|-|-|
