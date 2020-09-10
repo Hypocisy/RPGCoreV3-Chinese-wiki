@@ -110,12 +110,15 @@ Behaves identical to the attribute and combat option, just applying it on minion
 
 This will grant a player access to a certain skill, this can either be a pre-existing skill OR create a local skill for this node & grant access to that. 
 
+When a node is invested into, it adds +1 level per point of investment. Level zero or below skills are skipped. Pre-existing skills (written in a list) will be acquired as a linked combination.
+
 ```yml
     # grant access to a pre-existing skill
     skill-existing:
       skills:
-      # grants access to the primary fireball behaviour at lv13. Highest levelled skill is given
-      - "FIREBALL:AUTO:13"
+        existing:
+        # grants access to the fireball skill at lv13
+        - "FIREBALL:13"
     # create a local skill and grant access to it
     skill-local:
       # if the id is the same, we recycle the skill. Still only 1 copy is gained
