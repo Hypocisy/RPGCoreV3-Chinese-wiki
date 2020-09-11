@@ -72,8 +72,8 @@ You will find the attributes which have **one part of their name fixed** listed 
 | CRIT\_DAMAGE\_# | Entity | Extra damage multiplier with type crits | 0.0 |
 | CRIT\_DEFENSE\_# | Entity | Less damage taken from type  crits | 0.0 |
 | DEAL\_#\_AS\_# | Entity | Attacker converts from element to element | 0.0 |
-| TAKE\_#\_AS\_# | Entity | Defender converts from element to element | 0.0 |
-| GAIN\_#\_AS\_# | Entity | Attacker gains different element as extra damage | 0.0 |
 | DEAL\_#\_AS\_# | Combat | Attacker converts from element to element | 0.0 |
+| TAKE\_#\_AS\_# | Entity | Defender converts from element to element | 0.0 |
 | TAKE\_#\_AS\_# | Combat | Defender converts from element to element | 0.0 |
+| GAIN\_#\_AS\_# | Entity | Attacker gains different element as extra damage | 0.0 |
 | GAIN\_#\_AS\_# | Combat | Attacker gains different element as extra damage | 0.0 |
