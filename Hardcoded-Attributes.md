@@ -64,15 +64,16 @@ You will find the attributes which have **one part of their name fixed** listed 
 | #\_REGEN\_EFFICIENCY | Entity | regeneration multiplier | 0 |
 | OVERLEECH\_DURATION\_# | Entity | leech retaining when saturated | 0 |
 | MAXIMUM\_LEECH\_AS\_# | Entity | maximum leech per second | 0.2 |
-| DEAL\_#\_AS\_# | Entity | Attacker converts from element to element | 0.0 |
-| TAKE\_#\_AS\_# | Entity | Defender converts from element to element | 0.0 |
 | LEECH\_AS\_#\_# | Entity | Resource leeched from element | 0.0 |
 | INSTANT\_LEECH\_AS\_#\_# | Entity | Instant resource leeched from element | 0.0 |
-| DEAL\_#\_AS\_# | Combat | Attacker converts from element to element | 0.0 |
-| TAKE\_#\_AS\_# | Combat | Defender converts from element to element | 0.0 |
 | LEECH\_AS\_#\_# | Combat | Resource leeched from element | 0.0 |
 | INSTANT\_LEECH\_AS\_#\_# | Combat | Instant resource leeched from element | 0.0 |
 | CRIT\_CHANCE\_# | Entity | Chance for type damage to be critical | 0.0 |
 | CRIT\_DAMAGE\_# | Entity | Extra damage multiplier with type crits | 0.0 |
 | CRIT\_DEFENSE\_# | Entity | Less damage taken from type  crits | 0.0 |
-
+| DEAL\_#\_AS\_# | Entity | Attacker converts from element to element | 0.0 |
+| TAKE\_#\_AS\_# | Entity | Defender converts from element to element | 0.0 |
+| GAIN\_#\_AS\_# | Entity | Attacker gains different element as extra damage | 0.0 |
+| DEAL\_#\_AS\_# | Combat | Attacker converts from element to element | 0.0 |
+| TAKE\_#\_AS\_# | Combat | Defender converts from element to element | 0.0 |
+| GAIN\_#\_AS\_# | Combat | Attacker gains different element as extra damage | 0.0 |
