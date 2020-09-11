@@ -10,6 +10,7 @@ RPGCore mobs also are affected by potion effects. Invisibility will cause them t
 | Option | Type | Description | Defaults |
 |-|-|-|-|
 | | | | |
+| persistent | boolean | makes the mob persistent | false |
 | stationary | boolean | will not move from spawnpoint | false |
 | hostile-tags| tag list | entity tags we are hostile towards | |
 | friendly-tags | tag list | entity tags we are friendly towards | |
@@ -27,6 +28,12 @@ RPGCore mobs also are affected by potion effects. Invisibility will cause them t
 | attributes | attribute list | a list of attribute modifiers applied | |
 | skills | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#skills) | either a custom skill or some linked skills | |
 | spawn-egg | [section](https://github.com/Blutkrone/RPGCoreV3/wiki/EntityModule:-Creatures#spawnegg) | an item configuration for an itemized spawning egg | |
+
+## Special Note: Persistence
+
+Do NOT make general mobs persistent, only the most important kind of monsters (of which there are only very few) should be made persistent. Things like world bosses, dungeon bosses etc. RPGCore will re-instate mobs to their respective spawners if applicable. Something like elite mobs or general mobs are NOT meant to be persisted - avoid persistent entities as much as you can, but don't shy away from them if you believe that you need it.
+
+Not every piece of information will become serialized. We shall retain things like health, position, level, type of entity, related spawner and cooldowns. Stuff like behaviours, aggro, minions, buffs etc are NOT saved. Beware that the mob will reset should it be pulled outside of its leashing range.
 
 ## Special Note: Tags
 
