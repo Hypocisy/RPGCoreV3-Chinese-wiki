@@ -14,9 +14,10 @@ The general configuration of a skill.
 | name | string | displayname of the skill |
 | lore | string list | description of the skill |
 | level-scaling | string list | tags that can scale the level (player level requirement unaffected) |
-| variable-register | section | variables that can be read up by the skill, useless on their own |
-| behaviours | section | behaviours defining the skill |
-| targetters | section | if you need to define complex targetters |
+| variable-register | section | [[Skills: Variables]] registered skill variables |
+| behaviours | section | [[Skills: Behaviours]] defining the skill |
+| mechanics | section | [[Skills: Mechanics]], used for complex mechanics |
+| targetters | section | [[Skills: Targetters]], used for complex targets |
 | requirement-configuration | integer list | level requirement for players, unaffected by extra levels |
 | level-configuration | integer list | experience to level up to the next skill level |
 
