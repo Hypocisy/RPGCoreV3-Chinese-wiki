@@ -21,6 +21,8 @@ A variable is expected to be written like
       tags: [INTELLIGENCE, BUFF, SPELL]
       # The "CASTER_MODIFIER" skill attribute will also scale the variable
       absolute-tags: [CASTER_MODIFIER]
+      # The way this variable will show up for the player to read
+      documentation: "{AMOUNT:TICK_TIME} to cast this skill"
 ```
 
 Where value is evaluated when requested, the tags allow for easier global modification of it. 
