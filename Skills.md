@@ -8,7 +8,7 @@ Skills refer to a number of behaviours. A behaviour is made up of a trigger (Tel
 The general configuration of a skill.
 
 | Key | Type | Description |
-|-|-|-|-|-|-|
+|-|-|-|
 | id | string | unique id of the skill |
 | enchant | section | [[Items: Enchantments]] configuration |
 | name | string | displayname of the skill |
