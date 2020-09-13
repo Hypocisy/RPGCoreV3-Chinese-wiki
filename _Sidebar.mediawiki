@@ -60,7 +60,7 @@ __NOTOC__
 ==== [[Levels]]  ====
 ==== [[Offhand]]  ====
 * [[Offhand: Shields]] 
-* [[Offhand: Dualwield]] 
+* [[Offhand: One Handed]] 
 * [[Offhand: Two Handed]]
 ==== [[Skillbar]] ====
 ==== [[Titles]]  ====
