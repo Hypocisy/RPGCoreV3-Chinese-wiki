@@ -44,7 +44,6 @@ Fires following signals: PROXY_COLLIDED, PROXY_TICKED, PROXY_DESTROYED
 | flatten | decimal | reduce the y-axis direction by a percentage (0.0-1.0) | 0.0 | no | yes |
 | random-inertia | random initial inertia when releasing projectile, optimal for missile | 0.0 | no | yes |
 | missile | targetter | missile will chase an initial target | no | no | 
-| hostile-missile | boolean | true if the missile choice is hostile | true | false |
 
 ## An example of how to use a proxy
 
