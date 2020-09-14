@@ -6,5 +6,6 @@ If among the actions executed by this trigger is a damage mechanic, it will be m
 |-|-|-|-|-|-|
 | type | string | | signal | yes | no |
 | channel | string | channel to listen | | yes | no |
+| tags | string list | if defined, one of these must be contained by the tags of the signal | / | no | no |
 | inherit-supports | boolean | inherit manually inserted supports | no | no | no |
 | inherit-tags | boolean | inherit the tags stored within the event | no | no | no |
