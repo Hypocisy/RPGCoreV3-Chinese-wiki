@@ -12,7 +12,7 @@ Targetters re-map the original input from the trigger to a specific target. The 
 | [[Unique Targets]] | [[Limited]] | [[Remember]] | [[Forward]] | [[Eye Height]] |
 | [[Memorize Targetter]] | [[Parent]] | [[Random Choice]] | [[Signalled]] | [[Exact]] |
 | [[Players]] | [[Summoner]] | [[Direction]] | [[Rotated]] | [[Random Direction]] |
-| [[Sender]] | [[Condition]] | [[Composite]] | [[Goal Targetter]] | |
+| [[Sender]] | [[Condition]] | [[Composite]] | [[Goal Targetter]] | [[Selected]] |
 
 # Configuration of Targetters
 
