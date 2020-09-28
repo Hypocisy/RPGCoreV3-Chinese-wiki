@@ -7,7 +7,7 @@ You may want to check up on the articles of the skill module to create more adva
 
 # Skill Trigger 'consume'
 
-Inspect the details of the [[Consumeable]] trigger here.
+Inspect the details of the [[Consumable]] trigger here.
 
 # Creating a consumable (Buff item)
 
