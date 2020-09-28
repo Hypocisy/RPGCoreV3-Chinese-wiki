@@ -21,7 +21,7 @@ POTION_OF_RECOVERY:
   custom-tags:
     overstacking: 10
   # display name of the item
-  name: "Potion of Recovery (T1)"
+  name: "Potion of Recovery"
   # description of the item
   lore:
   - "&bRight click to consume, the effect does not stack."
