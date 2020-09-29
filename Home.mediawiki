@@ -1,5 +1,5 @@
 Welcome to the RPGCoreV3 wiki!
 
-== [https://www.dropbox.com/s/9yzws57pksio871/CraftRPGCore_3_8_34_minecraft_1_15_2.zip?dl=1 Download Advanced Configurations (Updated 3.8.34)]==
+== [https://www.dropbox.com/s/nv51y6g6j56170k/CraftRPGCore_3_8_35_minecraft_1_16_3.zip?dl=1 Download Advanced Configurations (Updated 3.8.35-FINAL)]==
 
 Should you have gotten familiar with RPGCore, and are looking to see how far it can be pushed, you may use these as your configurations. This is a huge repository of skills, items, materials, consumables etc that are sufficient to make a server on its own. 
