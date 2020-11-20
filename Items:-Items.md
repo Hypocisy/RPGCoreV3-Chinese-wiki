@@ -42,6 +42,10 @@ This covers general item configuration, equipment still may need to specify the 
 | local-data.support-skills | skill:level list | socketed skills are supported by these skills |
 | local-data.link-state | string | local value using 0 and 1 to represent the skill linking state (locked/unlocked) |
 | local-data.default-upgrade-cap | integer | upper limit of upgrading for this item |
+| local-data.requirements.item-tags | string list | tags necessary to be acquired by passive nodes |
+| local-data.requirements.minimum-level | integer | minimum player level to use |
+| local-data.requirements.maximum-level | integer | maximum player level to use |
+| local-data.requirements.attribute | attribute-threshold | a section mapping an attribute to the amount it needs |
 
 # Combat modifiers for weapons
 
